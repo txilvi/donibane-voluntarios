@@ -1,0 +1,47 @@
+.c-modal-small {
+    $modal-inset-min-width:	0;
+    $modal-inset-min-height-small:	300px;
+    $modal-inset-min-height-large:	1024px;
+    $modal-inset-width:	calc(100% - 30px);
+    $modal-inset-height-small: 340px;
+    $modal-inset-height-large: 800px;
+    &--alto {
+        custom-modal {
+            max-height: 250px;
+        }
+    }
+    ion-backdrop {
+       visibility: visible;
+    }
+    .modal-wrapper {
+      z-index: 10;
+      height: 100%;
+      contain: strict;
+      @media only screen and (min-width: $modal-inset-min-width) and (min-height: $modal-inset-min-height-small) {
+        @include position(calc(50% - (#{$modal-inset-height-small}/2)), null, null, calc(50% - (#{$modal-inset-width}/2)));
+        position: absolute;
+        width: $modal-inset-width;
+        height: $modal-inset-height-small;
+        box-shadow: none;
+      }
+      @media only screen and (min-width: $modal-inset-min-width) and (min-height: $modal-inset-min-height-large) {
+        //@include position(calc(50% - (#{$modal-inset-height-large}/2)), null, null, calc(50% - (#{$modal-inset-width}/2)));
+        left: 30px;
+        right: 30px;
+        position: absolute;
+        //width: $modal-inset-width;
+        width: calc(100% - 60px);
+        height: 30%;
+        //height: $modal-inset-height-large;
+      }
+    }
+  }
+.modal-wrapper {
+    @media only screen and  (min-width: $modal-inset-min-width) and (min-height: $modal-inset-min-height-large){
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,80 @@
+mapa {
+  .map {
+    height: 500px;
+    width: 100%;
+  }
+
+  .gm-style .gm-style-mtc label,
+  .gm-style .gm-style-mtc div {
+    font-size: 14px !important;
+  }
+
+  .map-infoWindow {
+    font-family: 'Montserrat';
+    max-height:400px;
+    overflow-y:auto;
+
+    .map-heading {
+      margin: 15px 0;
+ 
+      .map-title {
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+
+      .map-subtitle {
+        margin-top: 10px;
+        font-style: italic;
+        color: $c-gris-oscuro;
+      }
+    }
+
+    .map-row {
+      margin-bottom: 15px;
+
+      .map-label {
+        color: $c-turquesa;
+        font-weight: 700;
+      }
+
+      .map-value {
+        margin-top: 5px;
+        line-height: 1.7em;
+        a {
+          color: $c-turquesa;
+        }
+      }
+    }
+
+    .map-button-share {
+      float: left;
+      margin-top: 7px;
+      width: 100px;
+      cursor: pointer;
+
+      .map-share {
+        color: $c-morado;
+        font-family: 'Ionicons';
+      }
+
+      .map-share:before {
+        content: '\f379';
+      }
+    }
+
+    .map-button-llegar {
+      float: right;
+
+      .map-pin {
+        color: $c-morado;
+        font-size: 18px;
+        font-family: 'Ionicons';
+      }
+
+      .map-pin:before {
+        content: '\f34a';
+      }
+    }
+  }
+}

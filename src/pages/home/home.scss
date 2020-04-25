@@ -1,0 +1,59 @@
+home-page {
+    .descripcion {
+        margin-top: 105px;
+        padding: 20px;
+        text-align: justify;
+        font-family: 'Montserrat';
+        font-size: 18px;
+        @include respond-to("mobile") {
+            padding: 15px;
+        }
+    }
+    .destacado {
+        color: $c-verde-oscuro;
+        font-weight: 600;
+    }
+    .btn-wrapper {
+        text-align: center;
+        margin-bottom: 15px;
+        .btn-haciendo {
+            font-size: 20px;
+            padding: 10px;
+            width: 90%;
+            border: none;
+            @include respond-to("mobile") {
+                font-size: 20px;
+            }
+            img {
+                margin-right: 20px;
+                @include respond-to("mobile") {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .usuario {
+        padding: 0 20px;
+        @include respond-to("mobile") {
+            padding: 0 10px;
+        }
+        .img-usuario-wrapper {
+            display: inline-block;
+            width: 25%;
+            vertical-align: middle;
+        }
+        .btn-usuario-wrapper {
+            display: inline-block;
+            margin-left: 15px;
+            width: 69%;
+            height: 100px;
+            .btn-usuario {
+                font-size: 20px;
+                width: 100%;
+                @include respond-to("mobile") {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.c-btn {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: $font-family-headings;
+    line-height: 20px;
+    margin: 0;
+    padding: 12px;
+    height: 60px;
+    background-color: $c-blanco;
+    color: $c-verde-oscuro;
+    box-shadow: none;
+    border: 1px solid $c-verde;
+    text-transform: none;
+    @include respond-to("mobile") {
+        font-size: 18px;
+    }
+}

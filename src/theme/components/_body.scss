@@ -1,0 +1,78 @@
+.content-md{
+    font-family: 'FallisComing';
+    .scroll-content {
+        margin-top: 80px;
+    }
+}
+
+.heading {
+    padding:15px 10px;
+    margin-bottom: 10px;
+    background: $c-blanco;
+    border-top: 1px solid $c-morado-claro;
+    border-bottom: 1px solid $c-morado-claro;
+    .heading-icon {
+        position: relative;
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+        margin-right: 14px;
+        background-color: $c-gris-suave;
+        text-align: center;
+        border-radius: 50%;
+        ion-icon {
+            margin: auto;
+            vertical-align: middle;
+            padding-top:6px;
+            color: $c-morado;color: $c-morado;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .heading-title {
+        position: absolute;
+        top: 3px;
+        left: 55px;
+        width: 300px;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        &--centered {
+            top: 10px;
+        }
+    }
+    .heading-subtitle {
+        position: absolute;
+        top: 30px;
+        left: 55px;
+        width: 300px;
+        text-align: left;
+        font-size: 13px;
+    }
+}
+
+.secondary-heading {
+    color: $c-morado;
+    font-weight: bold;
+}
+
+
+.bloque{
+    margin-bottom:25px;
+    &--con-mapa{
+        height: 100%;
+    }
+    .texto {
+        margin-bottom:10px;
+        padding: 20px;
+        background-color: $c-blanco;
+    }
+}
+
+
+.error {
+    padding: 20px;
+    color: $c-rojo;
+    font-weight: 500;
+}
+

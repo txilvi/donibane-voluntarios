@@ -1,0 +1,36 @@
+.card-md {
+  padding: 15px 20px;
+  margin: 0px 6px 10px 6px;
+  width: calc(100% - 12px);
+  ion-icon {
+    color: $c-morado;
+  }
+  ion-label {
+    font-weight: bold;
+  }
+  .card-title {
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
+    &--suave {
+      color: $c-gris-oscuro;
+      font-style: italic;
+      font-size: 14px;
+    }
+  }
+  .card-info {
+    margin-top: 15px;
+  }
+  .card-row {
+    padding: 10px 0px;
+  }
+  .card-label {
+    font-weight: 500;
+  }
+  .card-secondary-button {
+    display: inline-block;
+    margin-top: 7px;
+    width: 100px;
+    cursor: pointer;
+  }
+}

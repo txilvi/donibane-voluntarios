@@ -1,0 +1,52 @@
+.alert-md {
+  .alert-button-group {
+    padding: 12px 24px;  
+    background-color: $c-gris-claro;
+    border-top: 1px solid $c-gris-suave;
+  }
+  .alert-radio-group {
+    padding-bottom: 20px;
+    max-height: 100%;
+  }
+  .alert-head {
+    background-color: $c-gris-muy-claro;
+    border-bottom: 1px solid $c-gris-suave;
+  }
+  .alert-input-wrapper {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 150px;
+  }
+  .alert-message {
+    display: none;
+  }
+}
+
+.alert-cancelar {
+  .alert-button-group .button-inner {
+    justify-content: center;
+  }
+  .alert-button-group-vertical {
+    flex-direction: row;
+  }
+}
+
+ion-alert > .alert-wrapper {
+  position: relative;
+  .btn-guardar {
+    position: relative;
+    background: $c-azul;
+    color: white;
+  }
+  .btn-no-guardar {
+    position: absolute;
+    left: 20px;
+    right: auto;
+    background: $c-rojo;
+    color: white;
+  }
+  .btn-cancelar {
+    margin: 0 3px 0 0;
+    left: 11px;
+  }
+}

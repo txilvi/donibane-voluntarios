@@ -1,0 +1,17 @@
+ion-input {
+    input.text-input-md {
+        //background-color: $c-blanco;
+        font-family: $font-family-base;
+        font-size: 16px;
+        margin: 0 !important;
+        padding: 14px 12px;
+        width: auto !important;
+        min-width: 230px;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+
+    .button-md:hover:not(.disable-hover) {
+        background-color:$c-gris;
+    }
+}

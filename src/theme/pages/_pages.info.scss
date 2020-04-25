@@ -1,0 +1,40 @@
+.page-info {
+    padding: 25px;
+    margin: 0 auto;
+    .titulo1 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    .titulo2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .destacado {
+        font-size: 16px;
+        margin: 25px 0;
+        text-align: center;
+        font-weight: bold;
+    }
+    ul {
+        li {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn-info {
+        display: block;
+        width: 300px;
+        margin: 50px auto 0;
+        @include respond-to('mobile') {
+            bottom: 10px;
+            width: calc(100% - 30px);
+        }
+    }
+}

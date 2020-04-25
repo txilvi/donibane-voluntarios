@@ -1,0 +1,67 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 10000000;
+    width: 100%;
+    background-color: $c-gris-muy-claro;
+    border-top: 0.1em solid $c-gris;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    @include respond-to("mobile") {
+      z-index: 1;
+    }
+    &--interior {
+        @include respond-to("mobile") {
+            position: static;
+        }
+    }
+
+    .logo {
+      margin-right: 20px;
+      height: 100px;
+      width: auto;
+      cursor: pointer;
+      @include respond-to("mobile") {
+        margin-right: 0px;
+      }
+    }
+
+    .right {
+      float: right;
+      margin-top:20px;
+      @include respond-to("mobile") {
+        padding-top: 5px;
+      }
+      @include respond-to('mobile-mini3') {
+        height: auto;
+        font-size: 13px;
+      }
+      @include respond-to('mobile-mini2') {
+        height: auto;
+      }
+      .rrss {
+        display: inline-block;
+        margin-top: 12px;
+        @include respond-to('mobile-mini3') {
+          width: 100%;
+          margin-left: 0;
+        }
+        ion-icon {
+          color: #333;
+          line-height: 65px;
+          font-size: 26px;
+          margin-right: 5px;
+          cursor: pointer;
+          @include respond-to('mobile') {
+            line-height: 45px;
+          }
+          @include respond-to('mobile-mini3') {
+            line-height: 26px;
+          }
+        }
+      }
+    }
+}

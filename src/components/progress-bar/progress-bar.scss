@@ -1,0 +1,36 @@
+progress-bar {
+    .progress-title {
+        display: inline-block;
+        min-width: 80px;
+        color: $c-morado;
+        text-align: right;
+        font-size: 24px;
+    }
+    .progress-outer {
+        display: inline-block;
+        margin: 10px;
+        width: 59%;
+        height: 30px;
+        padding: 3px;
+        text-align: center;
+        background-color: #f4f4f4;
+        border: 1px solid #dcdcdc;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .progress-inner {
+        height: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        border-radius: 20px;
+        background-color: $c-morado-claro;
+    }
+    .progress-text {
+        font-family: 'FallIsComing';
+        margin-left:107px;
+        text-align: center;
+        color: $c-morado;
+        font-size: 25px;
+        font-weight: normal;
+    }
+}

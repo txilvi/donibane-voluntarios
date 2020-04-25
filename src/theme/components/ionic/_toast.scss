@@ -1,0 +1,7 @@
+ion-toast {
+    .toast-wrapper.toast-top {
+        background-color: $c-rojo;
+        padding-top: env(safe-area-inset-top);
+        padding-top: constant(safe-area-inset-top);
+    }
+}

@@ -1,0 +1,22 @@
+ion-action-sheet{
+    .action-sheet-group {
+        .action-sheet-title {
+            color: $c-azul-oscuro;
+            font-family: 'FallisComing';
+            font-size: 35px;
+        }
+    }   
+    .action-sheet-button-md {
+        .button-inner {
+            padding-bottom: 20px;
+            font-family: 'FallisComing';
+            font-size: 25px;
+        }
+    }
+    .action-sheet-button.rojo {
+        ion-icon {
+            color: $c-rojo-oscuro;
+        }
+    }
+}
+

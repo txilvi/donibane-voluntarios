@@ -1,0 +1,15 @@
+ion-checkbox {
+    &.checkbox {
+        margin-right: 10px !important;
+        .checkbox-checked {
+            border-color: $c-rojo-oscuro;
+            background-color: $c-rojo-oscuro;
+        }
+    }
+}
+
+.item-checkbox {
+    ion-label {
+        margin-top: 7px;
+    }
+}

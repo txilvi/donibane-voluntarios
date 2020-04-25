@@ -1,0 +1,21 @@
+.label-md-primary,
+.item-input .label-md-primary,
+.item-select .label-md-primary,
+.item-datetime .label-md-primary {
+    color: $c-gris-oscuro-fuerte;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.text-input[disabled],
+.datetime-disabled,
+.item-datetime-disabled ion-label,
+.radio-md.radio-disabled,
+.item-md.item-radio-disabled ion-label {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.item.item-block.item-md.item-radio.item-radio-disabled {
+  cursor: not-allowed;
+}

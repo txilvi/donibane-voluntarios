@@ -1,0 +1,24 @@
+ion-menu {
+    ion-header img {
+        width: 60px;
+    }
+    ion-list ion-item {
+        cursor: pointer;
+        div {
+            display: flex;
+            align-items: center;
+            img {
+                margin-right: 20px;
+                width: 40px;
+            }
+            .label {
+                font-family: 'FallisComing';
+                font-weight: normal;
+                font-size: 28px;
+            }
+        }
+    }
+    .scroll-content {
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,83 @@
+@mixin useTrueTypeBasicFont($font-name, $ext: 'ttf', $bold: true, $light: true, $semibold: true, $italic: false) {
+    $l-font-path: $font-path + '/' + to-lower-case($font-name);
+    
+    @font-face {
+        font-family: $font-name;
+        font-weight: 400;
+        font-style: normal;
+        src: url('#{$l-font-path}/#{$font-name}-Regular.#{$ext}');
+    }
+    @if $bold {
+        @font-face {
+            font-family: $font-name;
+            font-weight: 700;
+            font-style: normal;
+            src: url('#{$l-font-path}/#{$font-name}-Bold.#{$ext}');
+        }
+    }
+    @if $light {
+        @font-face {
+            font-family: $font-name;
+            font-weight: 300;
+            font-style: normal;
+            src: url('#{$l-font-path}/#{$font-name}-Light.#{$ext}');
+        }
+    }
+    @if $italic {
+        @font-face {
+            font-family: $font-name;
+            font-weight: 400;
+            font-style: italic;
+            src: url('#{$l-font-path}/#{$font-name}-Italic.#{$ext}');
+        }
+    }
+    @if $semibold {
+        @font-face {
+            font-family: $font-name;
+            font-weight: 600;
+            font-style: normal;
+            src: url('#{$l-font-path}/#{$font-name}-SemiBold.#{$ext}');
+        }
+    }
+}
+
+@mixin addCustomFont($font-name) {
+    $l-font-path: $font-path + '/' + $font-name;
+    @font-face {
+        font-family: $font-name;
+        src:  url('#{$l-font-path}/#{$font-name}.eot');
+        src:  url('#{$l-font-path}/#{$font-name}.eot?#iefix') format('embedded-opentype'),
+          url('#{$l-font-path}/#{$font-name}.ttf') format('truetype'),
+          url('#{$l-font-path}/#{$font-name}.woff') format('woff'),
+          url('#{$l-font-path}/#{$font-name}.svg#{$font-name}') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+  
+@include useTrueTypeBasicFont('Poppins');
+@include useTrueTypeBasicFont('OpenSans');
+@include useTrueTypeBasicFont('Akrobat', 'otf');
+@include useTrueTypeBasicFont('Arkhip', 'otf');
+@include useTrueTypeBasicFont('Raleway', 'ttf');
+
+@include addCustomFont('customIcons');
+
+@font-face {
+    $font-name: 'segoesc';
+    $l-font-path: $font-path + '/' + to-lower-case($font-name);
+    font-family: 'Custom Segoe Script';
+    font-style: normal;
+    font-weight: normal;
+    src: url('#{$l-font-path}/#{$font-name}-Regular.eot') /* EOT file for IE */
+}
+
+@font-face {
+    $font-name: 'segoesc';
+    $l-font-path: $font-path + '/' + to-lower-case($font-name);
+    font-family: 'Custom Segoe Script';
+    font-style: normal;
+    font-weight: normal;
+    src: url('#{$l-font-path}/#{$font-name}-Regular.ttf') format('truetype'),
+}

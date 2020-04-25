@@ -1,0 +1,10 @@
+{
+  "name": "sanjuanxar",
+  "app_id": "ac5bbbff",
+  "type": "ionic-angular",
+  "watchPatterns": [],
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  }
+}

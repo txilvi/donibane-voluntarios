@@ -1,0 +1,14 @@
+ion-radio {
+    &.radio-md {
+        .radio-icon {
+            top: 3px;
+            margin-right: 10px;
+        }
+        .radio-checked {
+            border-color: $c-rojo-oscuro;
+            .radio-inner {
+                background-color: $c-rojo-oscuro;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+ion-list {
+  ion-label {
+    color: $c-morado;
+    font-size: 29px;
+    font-weight:600;
+  }
+
+  .item-md {
+    padding-left: 0px;
+  }
+
+  .item-inner {
+    padding-left: 10px;
+    font-family: 'BrainFlowerEuro';
+    ion-thumbnail img{
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .list-item-multiple-lines {
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:14px;
+  }
+}

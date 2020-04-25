@@ -1,0 +1,8 @@
+ion-navbar {
+    &.toolbar-md {
+        min-height: 60px !important;
+    }
+    .toolbar-background-md {
+        background: none;
+    }
+}

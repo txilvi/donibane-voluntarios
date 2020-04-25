@@ -1,0 +1,44 @@
+.c-container {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: $font-family-content;
+    @include respond-to('desktop') {
+        width: 1000px;
+    }
+    @include respond-to('tablet') {
+        width: 700px;
+    }
+    @include respond-to('mobile') {
+        width: 100%;
+    }
+    @include respond-to('mobile-mini') {
+        width: 100%;
+    }
+    &--page-small {
+        position: relative;
+        padding: 25px;
+        margin: 0 auto 200px;
+        max-width: 450px;
+        min-height: 650px;
+        @include respond-to("mobile") {
+            padding: 25px 15px;
+        }
+    }
+    &--page-medium {
+        position: relative;
+        padding: 25px;
+        margin: 0 auto 200px;
+        max-width: 550px;
+        min-height: 650px;
+        @include respond-to("mobile") {
+            padding: 25px 15px;
+        }
+    }
+    &--page-big {
+        position: relative;
+        padding: 25px;
+    }
+}

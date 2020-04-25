@@ -1,0 +1,14 @@
+ion-header {
+    border-bottom: 0.1em solid $c-gris-oscuro;
+    &.header-md::after {
+        content: none;
+    }
+
+    ion-navbar {
+        .toolbar-background {
+            background-color: lighten($c-naranja-muy-claro, 2%);
+        }
+    }
+
+    padding-top: env(safe-area-inset-top);  //iOS
+}

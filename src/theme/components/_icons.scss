@@ -1,0 +1,37 @@
+ion-icon {
+    margin-right: 5px;
+    vertical-align: baseline;
+    color: $c-morado-claro;
+    font-size: 20px;
+}
+
+.rounded-icon {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+    background-color: $c-blanco;
+    text-align: center;
+    border: 1px solid $c-negro;
+    border-radius: 50%;
+    .icon {
+        margin: auto;
+        vertical-align: middle;
+        padding-top:6px;
+        color: $c-morado;
+        text-align: center;
+        font-size: 16px;
+    }
+    .text {
+        position: absolute;
+        top: 7px;
+        left: 35px;
+        width: 300px;
+        text-align: left;
+        color: $c-negro;
+        font-weight: 500;
+        font-size:13px;
+    }
+}
+

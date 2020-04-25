@@ -1,0 +1,28 @@
+ion-alert {
+    &.alert-responsable {
+        .alert-checkbox-group {
+            .alert-checkbox-label {
+                white-space: normal;
+            }
+        }
+    }
+
+    &>.alert-wrapper {
+        .alert-head {
+            .alert-sub-title {
+                font-weight: 100 !important;
+            }
+        }
+
+        .alert-button-group {
+            .alert-button {
+                color: $c-azul-oscuro;
+                font-weight: 600;
+                &.danger {
+                    color: $c-rojo-oscuro;
+                }
+            }    
+        }
+    }
+
+}

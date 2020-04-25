@@ -1,0 +1,5185 @@
+{
+  "usuarios": {
+    "id": "1",
+    "nombre": "Sara"
+  },
+  "errores": [],
+  "actividadesRealizadas": [],
+  "actividades": [
+    {
+      "id": 0,
+      "nombre": "Pelis",
+      "nombreLargo": "Me apetece una peli",
+      "descripcion": "Madurar es no perder el tiempo en elegir qué película ver a la hora de la siesta porque sabes que la vas a ignorar mientras miras el móvil.",
+      "icono": "icon_pelicula.png",
+      "imagen": "imagen_pelicula.jpg",
+      "puntos": [
+        {
+          "descripcion": "He visto una peli y no me he quedado dormida",
+          "puntos": 20,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "He visto la peli con alguna siestecita",
+          "puntos": 10,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que había visto peli, pero no...",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0
+    },
+    {
+      "id": 1,
+      "nombre": "Pasatiempos",
+      "nombreLargo": "Los pasatiempos molan",
+      "descripcion": "¿Cúando fue la última vez que hiciste algo por primera vez? Probemos con mandalas, sudokus, un puzzle...",
+      "icono": "icon_pasatiempos.png",
+      "imagen": "imagen_pasatiempos.jpg",
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0,
+      "puntos": [
+        {
+          "descripcion": "¡Como molan estos pasatiempos! Sin darme cuenta ya llevo más de 1 hora...",
+          "puntos": 30,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "¿Una hora? Bueno, la verdad es que con unos minutillos esto va que chuta",
+          "puntos": 15,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que me había hecho pasatiempos, pero no...",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "subActividades": [
+        {
+          "nombre": "Sudokus",
+          "nombreLargo": "¡Trae para acá un sudoku!",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "¡Qué lista soy! ¡Un sudoku resuelto!",
+              "puntos": 10,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que me había hecho un sudoku, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        },
+        {
+          "nombre": "Pasatiempos 80",
+          "nombreLargo": "Eyyyy... ¡Pasatiempos ochenteros!",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "¡Como molan estos pasatiempos! Sin darme cuenta ya llevo más de 1 hora...",
+              "puntos": 20,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "¿Una hora? Bueno, la verdad es que con unos minutillos esto va que chuta",
+              "puntos": 10,
+              "icono": "logo-snapchat"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que me había hecho pasatiempos, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        },
+        {
+          "nombre": "Pintar",
+          "nombreLargo": "Desestresarse coloreando es de guapas",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "¡Estoy viciada! Me he acabado una mandala entera y me ha quedado preciosa",
+              "puntos": 30,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "Bueno, poco a poco. Hoy pinto un poquito y otro día lo termino",
+              "puntos": 15,
+              "icono": "logo-snapchat"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que había pintado, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        },
+        {
+          "nombre": "Puzzles",
+          "nombreLargo": "Este puzzle me va a quedar precioso",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "¡Una horica de puzzle se pasa volando!",
+              "puntos": 30,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que me había hecho puzzles, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Excursiones",
+      "nombreLargo": "Me voy de excursión",
+      "descripcion": "La vida no se mide por el número de veces que respiramos, sino por los lugares que nos quitan la respiración.",
+      "icono": "icon_excursion.png",
+      "imagen": "imagen_excursion.jpg",
+      "puntos": [
+        {
+          "descripcion": "Me apetecía irme lejos y he hecho una de las excursiones de fuera de Pamplona",
+          "puntos": 60,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "Lo admito... Me he dado un paseico por Pamplona. Pero también cuenta ¿no?",
+          "puntos": 30,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que me había ido de excursión, pero no...",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0
+    },
+    {
+      "id": 3,
+      "nombre": "Youtubers",
+      "nombreLargo": "La gente es muy freak",
+      "descripcion": "¡Madre mía como anda el patio! Entre GH VIP, Verdeliss, Pantomima Full... tienes unas cuantas horas de risas",
+      "icono": "icon_freak.png",
+      "imagen": "imagen_freak.jpg",
+      "puntos": [
+        {
+          "descripcion": "Quería despejarme y a lo tonto me he visto más de una hora de gente muy freak...",
+          "puntos": 30,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "Bueno, he visto algún video de gente freak, pero me he aburrido enseguida.",
+          "puntos": 15,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que había visto vídeos de gente freak, pero no...",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0
+    },
+    {
+      "id": 4,
+      "nombre": "Culturica",
+      "nombreLargo": "¡A culturizarse!",
+      "descripcion": "Al acabar un libro te sientes vacía por no saber más de los personajes y a la vez llena de las historias que has leído. Es magia.",
+      "icono": "icon_libro.png",
+      "imagen": "imagen_libros.jpg",
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0,
+      "puntos": [
+        {
+          "descripcion": "Las Cukis me habéis aconsejado libros tan buenos, que me engancho y ya llevo más de 2 horas leyendo.",
+          "puntos": 30,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "Bueno, tampoco hace falta engancharse ¿una horica está bien?",
+          "puntos": 15,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "Este libro me aburre, aunque algo he leido (menos de una hora)",
+          "puntos": 5,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que había leído, pero no...",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "subActividades": [
+        {
+          "nombre": "English",
+          "nombreLargo": "English rules!",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "Tengo ya un acento tan inglés que cualquier día me confunden con Victoria Beckam (osea que llevo más de 1 hora learning)",
+              "puntos": 40,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "Ayyy si no fuera tan aburrido podría aprender más rápido (sí, llevo menos de 1 hora learning)",
+              "puntos": 20,
+              "icono": "logo-snapchat"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que estaba learning English, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        },
+        {
+          "nombre": "Libros",
+          "nombreLargo": "Me encantan las buenas historias",
+          "descripcion": "",
+          "icono": "",
+          "imagen": "",
+          "puntos": [
+            {
+              "descripcion": "Las Cukis me habéis aconsejado libros tan buenos, que me engancho y ya llevo más de 2 horas leyendo.",
+              "puntos": 30,
+              "icono": "md-film"
+            },
+            {
+              "descripcion": "Bueno, tampoco hace falta engancharse ¿una horica está bien?",
+              "puntos": 15,
+              "icono": "logo-snapchat"
+            },
+            {
+              "descripcion": "Este libro me aburre, aunque algo he leido (menos de una hora)",
+              "puntos": 5,
+              "icono": "logo-snapchat"
+            },
+            {
+              "descripcion": "¡Ups me he confundido! He dicho que había leído, pero no...",
+              "puntos": 0,
+              "icono": "logo-reddit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Cuki-quedar",
+      "nombreLargo": "Las cukis son lo más",
+      "descripcion": "Un día perfecto para hacerte ilusiones y que te queden preciosas es el día en que consigues que las cukis queden. Por supuesto, no puedes faltar.",
+      "icono": "icon_cukis.png",
+      "imagen": "imagen_amigas.jpg",
+      "puntos": [
+        {
+          "descripcion": "El milagro se ha producido. ¡He quedado con las Cukis! ¡Qué majas son!",
+          "puntos": 60,
+          "icono": "md-film"
+        },
+        {
+          "descripcion": "He intentado quedar las cuki-pesadicas, pero no hay manera... Yo lo he intentado, ¿esto tiene que contar no?",
+          "puntos": 20,
+          "icono": "logo-snapchat"
+        },
+        {
+          "descripcion": "¡Ups me he confundido! He dicho que había quedado, pero no (igual he hecho un Adriana)",
+          "puntos": 0,
+          "icono": "logo-reddit"
+        }
+      ],
+      "puntosNivel": 100,
+      "porcentaje": 0,
+      "puntosTotales": 0
+    }
+  ],
+  "excursiones": [
+    {
+      "name": "Bosque Quinto Real",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.513509,43.013932"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Bosque Quinto Real"
+          },
+          {
+            "name": "tipo",
+            "value": "Bosques"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Se trata de un bosque de hayas situado al noroeste de Navarra. Los &lt;B&gt;valles pirenaicos&lt;/B&gt; de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3066\"&gt;Baztan&lt;/A&gt;, Erro, Esteríbar y Alduides comparten la propiedad de este espacio natural surcado de regatas. Sus características hacen de este espacio una de las extensiones boscosas más importantes de Navarra. &lt;br/&gt;&lt;br/&gt;Atravesado por el &lt;B&gt;río Arga&lt;/B&gt;, este extenso paraje esconde rincones singulares como las ruinas de la Real Fábrica de armas de &lt;B&gt;Eugi&lt;/B&gt; o el hayedo de Odia."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "621135"
+          },
+          {
+            "name": "lat",
+            "value": "4763434"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Comarca de la Sakana",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.172966,42.893158"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Comarca de la Sakana"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Se trata de un valle situado en el noroeste de la Comunidad Foral, en la zona conocida como la &lt;b&gt;Navarra Húmeda&lt;/b&gt;. Entre la &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3064\"&gt;sierra de Aralar&lt;/a&gt; y el &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3168\"&gt;Parque Natural de Urbasa-Andía&lt;/a&gt;, el valle de la &lt;b&gt;Sakana&lt;/b&gt; ocupa una extensión aproximada de 306 kilómetros cuadrados. Una comarca bañada por el río Arakil y enmarcada por espectaculares montes repletos de hayedos y robledales como el Beriain-San Donato o la Trinidad. Este territorio engloba tres zonas históricas: La Burunda, Aranatz y el valle de Arakil. Entre sus municipios y concejos destacan &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=1834\"&gt;Altsasu/Alsasua&lt;/a&gt;, Etxarri-Aranatz, Uharte-Arakil, Irurtzun, Bakaiku, Arbizu y Olazti/Olazagutía."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "CL Uriz"
+          },
+          {
+            "name": "num1",
+            "value": "38"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Lakuntza"
+          },
+          {
+            "name": "tfno1",
+            "value": "948464867"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "948464853"
+          },
+          {
+            "name": "email",
+            "value": "sakanagaratzen@gmail.com"
+          },
+          {
+            "name": "paginaweb",
+            "value": "sakana.eus/"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "567527"
+          },
+          {
+            "name": "lat",
+            "value": "4749282"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cueva de Zugarramurdi",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.547369,43.26874"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Cueva de Zugarramurdi"
+          },
+          {
+            "name": "tipo",
+            "value": "Cuevas"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "En el Pirineo occidental&lt;/b&gt;, superado el &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3066&amp;amp;idRC=4226\"&gt;valle de Baztan&lt;/a&gt; y a escasa distancia de la frontera con Francia se encuentra Zugarramurdi, &lt;b&gt;el pueblo de las brujas&lt;/b&gt;, donde fantasía y realidad se mezclan para regalar a la imaginación la posibilidad de hacer un apasionante viaje a través del tiempo.&lt;br /&gt;&lt;br /&gt;Su cueva, a 400 metros de &lt;b&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2725&amp;amp;idRC=4226\"&gt;Zugarramurdi&lt;/a&gt;&lt;/b&gt;, se puede visitar hasta el anochecer. No contiene estalactitas ni estalagmitas, ni en sus paredes se han descubierto pinturas rupestres."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Zugarramurdi"
+          },
+          {
+            "name": "tfno1",
+            "value": "948599305"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "info@zugarramurdi.es"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "617885"
+          },
+          {
+            "name": "lat",
+            "value": "4791683"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cueva de Zugarramurdi",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.547369,43.26874"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Cueva de Zugarramurdi"
+          },
+          {
+            "name": "tipo",
+            "value": "Cuevas"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "En el Pirineo occidental&lt;/b&gt;, superado el &lt;a&gt;valle de Baztan&lt;/a&gt; y a escasa distancia de la frontera con Francia se encuentra Zugarramurdi, &lt;b&gt;el pueblo de las brujas&lt;/b&gt;, donde fantasía y realidad se mezclan para regalar a la imaginación la posibilidad de hacer un apasionante viaje a través del tiempo.&lt;br /&gt;&lt;br /&gt;Su cueva, a 400 metros de &lt;b&gt;&lt;a&gt;Zugarramurdi&lt;/a&gt;&lt;/b&gt;, se puede visitar hasta el anochecer. No contiene estalactitas ni estalagmitas, ni en sus paredes se han descubierto pinturas rupestres."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Zugarramurdi"
+          },
+          {
+            "name": "tfno1",
+            "value": "948599305"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "info@zugarramurdi.es"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "617885"
+          },
+          {
+            "name": "lat",
+            "value": "4791683"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cuevas de Urdazubi/Urdax",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.512116,43.276823"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Cuevas de Urdazubi/Urdax"
+          },
+          {
+            "name": "tipo",
+            "value": "Cuevas"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La pequeña &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2634\"&gt;&lt;b&gt;localidad pirenaica de Urdazubi/Urdax&lt;/b&gt;&lt;/a&gt; esconde numerosos atractivos. Puentes medievales, majestuosos caserones, antiguas construcciones como el cenobio románico de San Salvador o cuevas prehistóricas. La de Ikaburu, única visitable, se asienta bajo los verdes prados de la Navarra cantábrica y a pocos kilómetros de la costa y de la frontera con Francia.&lt;br /&gt;&lt;br /&gt;Se trata de una gruta que se originó hace unos 14.000 años gracias a la continua erosión del río Urtxuma. Una visita guiada por sus galerías &lt;em&gt;-única forma de conocerla-&lt;/em&gt; te adentrará en un &lt;b&gt;mágico universo de estalactitas y estalagmitas&lt;/b&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Urdazubi/Urdax"
+          },
+          {
+            "name": "tfno1",
+            "value": "948599241"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "info@cuevasurdax.com "
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.cuevasurdax.com'>www.cuevasurdax.com</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "Área Wifi."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "620730"
+          },
+          {
+            "name": "lat",
+            "value": "4792631"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Embalse de Alloz",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.943023,42.722183"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Embalse de Alloz"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El &lt;b&gt;embalse de Alloz&lt;/b&gt; es un mar de agua alimentado por el río Salado y rodeado de quejigales, pastizales, matorral y pinos. Un espacio ideal para cualquier época del año, pero especialmente para el verano. Bañarse en sus refrescantes aguas azuladas, descansar bajo alguno de sus árboles o sentirse cual &lt;em&gt;Robinson Crusoe&lt;/em&gt; surcando el pantano a bordo de una embarcación son algunas de las opciones en este enclave natural."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " Entre Yerri y Guesálaz"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Alloz"
+          },
+          {
+            "name": "tfno1",
+            "value": "689701495"
+          },
+          {
+            "name": "tfno2",
+            "value": "646185264"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.escuelanavarradevela.com'>www.escuelanavarradevela.com</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "la zona de aparcamiento cuenta con baño, duchas y merenderos."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "586540"
+          },
+          {
+            "name": "lat",
+            "value": "4730506"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Embalse de las Cañas",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.398342,42.483497"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Embalse de las Cañas"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situado muy cerca de Logroño y junto al &lt;b&gt;Camino de Santiago&lt;/b&gt;, este humedal, catalogado como &lt;b&gt;Reserva Natural&lt;/b&gt; y &lt;b&gt;Zona de Especial Protección para las Aves &lt;/b&gt;(ZEPA), constituye por su singularidad y riqueza ornitológica, &lt;b&gt;uno de los más importantes de Navarra&lt;/b&gt;. Lugar ideal para avistar aves acuáticas nidificantes e invernantes. Cuenta con un paseo alrededor del embalse y con el &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3047\"&gt;Observatorio de Aves El Bordón.&lt;/a&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " Laguna de las Cañas"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Viana"
+          },
+          {
+            "name": "tfno1",
+            "value": "696830898"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "info@lagunadeviana.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.lagunadeviana.es'>www.lagunadeviana.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "549449"
+          },
+          {
+            "name": "lat",
+            "value": "4703636"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Embalse de Yesa",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.09782,42.605577"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Embalse de Yesa"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Al pie de la sierra de Leire, una enorme mancha verde y azulada se extiende a lo largo de 10 km de longitud embelleciendo un paisaje dominado por quejigales, hayedos y pinares que anuncian la cercanía de los &lt;b&gt;Pirineos&lt;/b&gt;. "
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Yesa"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "**Miradores para admirar el embalse: desde el monasterio de Leire y en la carretera que discurre paralela al pantano donde en varios puntos hay zonas más abiertas para estacionar el vehículo y disfrutar del paisaje. "
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "656034"
+          },
+          {
+            "name": "lat",
+            "value": "4718770"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Embalses de Leurtza",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.713585,43.070611"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Embalses de Leurtza"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "En el noroeste navarro, entre los municipios de Urrotz y Beintza-Labaien, se esconden dos embalses construidos en 1920. En medio de los bosques de la Navarra Atlántica, surgen estos &lt;b&gt;lagos de montaña &lt;/b&gt;como una atractiva sorpresa.&lt;br /&gt;&lt;br /&gt;La ubicación de los embalses en una cuenca cerrada cubierta de hayedos confiere al lugar una magia especial. Como sacados de un cuento de hadas, los embalses de Leurtza han sido declarados &lt;b&gt;Área Natural Recreativa&lt;/b&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Urroz"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.leurtza.es'>www.leurtza.es</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "&lt;ul&gt;&lt;li&gt;Existencia de un sendero accesible a invidentes y personas con movilidad reducida en algunos tramos. &lt;/li&gt;&lt;li&gt;La entrada a animales domésticos está permitida siempre que vayan atados.&lt;/li&gt;&lt;/ul&gt;"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "604734"
+          },
+          {
+            "name": "lat",
+            "value": "4769459"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foz de Arbaiun",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.187876,42.668435"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Foz de Arbaiun"
+          },
+          {
+            "name": "tipo",
+            "value": "Cañones"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La Foz de Arbaiun, a la entrada &lt;b&gt;del pirenaico valle de Salazar&lt;/b&gt;, entre Lumbier y el Almiradío de Navascués, es la más extensa e impresionante de las gargantas navarras. El río Salazar ha ido tallando la roca dando lugar a un espectáculo sin parangón. Imponentes paredes verticales se suceden a lo largo de casi 6 kilómetros. &lt;br /&gt;&lt;br /&gt;En el interior de la &lt;b&gt;foz de Arbaiun&lt;/b&gt; crece una diversa y peculiar vegetación que ofrece una variedad cromática estacional de indudable belleza. En sus roquedos anida una numerosa colonia de buitres leonados visibles desde el balcón voladizo del Mirador de Iso."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "PR entre Lumbier y el Romanzado"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Usún"
+          },
+          {
+            "name": "tfno1",
+            "value": "948880874"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "cinlumbi@cfnavarra.es"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "648497"
+          },
+          {
+            "name": "lat",
+            "value": "4725588"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foz de Lumbier",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.303286,42.633579"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Foz de Lumbier"
+          },
+          {
+            "name": "tipo",
+            "value": "Cañones"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Buitres leonados sobrevolando el acantilado; bravos escarpes donde nidifican las aves; un río de limpias y frescas aguas que talla en las rocas estrechos y caprichosos pasos; los restos de un puente que, según cuenta la leyenda, fue construido con ayuda del diablo; dos túneles que antaño atravesó el primer tren eléctrico de España. El resultado, un paisaje agreste del que podrás disfrutar si te acercas a la &lt;b&gt;foz de Lumbier&lt;/b&gt;, estrecha garganta labrada por el río Irati y declarada reserva natural.&lt;br /&gt;&lt;br /&gt;Su espectacular geología y el aislamiento durante siglos han propiciado la conservación de una singular vegetación que puebla los escarpados roquedos sirviendo de morada para grandes rapaces."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Lumbier"
+          },
+          {
+            "name": "tfno1",
+            "value": "948880874"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "cinlumbi@cfnavarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.focesdenavarra.es'>www.focesdenavarra.es</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "&lt;p&gt;Empresas que realizan diferentes actividades en la zona: visitasguiadas, senderismo, fotografía de naturaleza, recorridos en balsa...&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a target=\"_blank\" href=\"http://centapp18.admon-cfnavarra.es/esp/organice-viaje/recurso/Turismoactivo/3303/Mirua,-Actividades-de-Naturaleza.htm\"&gt;Mirua&lt;/a&gt; 608 560 369&lt;/li&gt;&lt;li&gt;&lt;a target=\"_blank\" href=\"http://centapp18.admon-cfnavarra.es/esp/mapa-buscador/recurso/Turismoactivo/4947/Mirame-Navarra-al-natural.htm\"&gt;Mírame! Navarra al natural&lt;/a&gt; 628 649 249&lt;/li&gt;&lt;li&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Turismoactivo/6529/Nattura,-Naturaleza-y-Aventura.htm\"&gt;Nattura&lt;/a&gt; 671 247 596&lt;/li&gt;&lt;/ul&gt;"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "639117"
+          },
+          {
+            "name": "lat",
+            "value": "4721521"
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Ciudadela",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.649977,42.811929"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "La Ciudadela"
+          },
+          {
+            "name": "tipo",
+            "value": "Parques y jardines"
+          },
+          {
+            "name": "zona",
+            "value": "Cuenca de Pamplona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Junto con la circundante Vuelta del Castillo constituye el gran pulmón verde de &lt;b&gt;Pamplona&lt;/b&gt;. Un espacio de 280.000 metros cuadrados cuyos pabellones, fosos, baluartes, revellines, fortificaciones, edificios menores y glacis son hoy lugares públicos de ocio, deporte y cultura. &lt;b&gt;La Ciudadela&lt;/b&gt;, referencia urbanística de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2513\"&gt;Pamplona&lt;/a&gt;, está considerada además como el mejor ejemplo de arquitectura militar del Renacimiento español y uno de los más destacados conjuntos defensivos de &lt;b&gt;Europa&lt;/b&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "AV del Ejército"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Pamplona"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "**&lt;em&gt;Espacio Wi-Fi&lt;/em&gt;: acceso a internet gratuito."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "610374"
+          },
+          {
+            "name": "lat",
+            "value": "4740814"
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Mesa de los Tres Reyes",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-0.742819,42.92039"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "La Mesa de los Tres Reyes"
+          },
+          {
+            "name": "tipo",
+            "value": "Montes y sierras"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La Mesa de los tres Reyes, con sus 2444 metros, es la &lt;strong&gt;montaña más alta de Navarra&lt;/strong&gt;. Situada en el pirineo oriental navarro, se llama así porque \"en su cima podían sentarse a conversar los reyes de Aragón, Navarra y el Vizcondado de Bearne (Francia), estando cada uno en suelo de su dominio\"… Efectivamente, en su cumbre se encuentra la frontera de Francia con España, en lo que fue la confluencia de estos tres antiguos reinos.&lt;br /&gt;&lt;br /&gt;Se trata de una montaña rocosa muy frecuentada por montañeros y a la que se puede acceder desde diversos lugares como Linza, Belagua y Lescun. La &lt;strong&gt;ascensión tradicional&lt;/strong&gt; de los montañeros navarros se realizaba &lt;strong&gt;desde el rincón de Belagua&lt;/strong&gt;, a través del barranco Aztaparreta en algo más de cuatro horas de recorrido."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.vallederoncal.es'>www.vallederoncal.es</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "la dificultad de su ascensión está clasificada como \"Alta\", debido al desnivel ya las condiciones meteorológicas. Se recomienda por tanto consultar el estado de las carreteras y la accesibilidad a la cima en invierno y primavera."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "684220"
+          },
+          {
+            "name": "lat",
+            "value": "4754446"
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Selva de Irati",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.195798,42.9846"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "La Selva de Irati"
+          },
+          {
+            "name": "tipo",
+            "value": "Bosques"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La Selva de Irati es el segundo hayedo-abetal más extenso y mejor conservado de &lt;b&gt;Europa&lt;/b&gt;, después de la &lt;b&gt;Selva Negra&lt;/b&gt; de Alemania. Una inmensa mancha verde de unas 17.000 hectáreas que se mantiene en estado casi virgen. Se encuentra situada en el &lt;b&gt;Pirineo oriental&lt;/b&gt; navarro, en una cuenca rodeada &lt;!-- comentario largo para que se quede bien la cosa--&gt;por montañas (&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3059\"&gt;Ori&lt;/a&gt;, Abodi...), en la cabecera de los pirenaicos valles de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3065\"&gt;Aezkoa&lt;/a&gt; y &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3312\"&gt;Salazar&lt;/a&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "info@aezkoa.net "
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.irati.org'>www.irati.org</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "647096"
+          },
+          {
+            "name": "lat",
+            "value": "4760684"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laguna de Pitillas",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.582823,42.413166"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Laguna de Pitillas"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Cigüeñas, ansarones, estorninos, somormujos, avetoros, aguiluchos laguneros, abejarucos, golondrinas... cientos de aves que se desplazan suavemente por la &lt;b&gt;laguna de Pitillas &lt;/b&gt;conformando un auténtico mosaico natural en el que los colores, los movimientos y los sonidos le trasladarán a un mundo de sensaciones tranquilas. &lt;br /&gt;&lt;br /&gt;Este espacio natural, situado a 60 km. de Pamplona y a 3 de Pitillas, en la zona Media de Navarra, es &lt;b&gt;Reserva Natural&lt;/b&gt;, Zona de Especial Protección para las Aves y Humedal de Importancia Internacional, lo que da una idea de su alto valor ecológico."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "PR Laguna de Pitillas"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Pitillas"
+          },
+          {
+            "name": "tfno1",
+            "value": "619463450"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "seaostadar@gmail.com"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.lagunadepitillas.org'>www.lagunadepitillas.org</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "No está permitida la presencia de perros ni de animales domésticos."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "616606"
+          },
+          {
+            "name": "lat",
+            "value": "4696624"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laguna Lor",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.661273,41.982879"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Laguna Lor"
+          },
+          {
+            "name": "tipo",
+            "value": "Lagos y embalses"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situada entre &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2022\"&gt;Cascante&lt;/a&gt; y Ablitas, la laguna Lor es hoy un lugar de pesca, de paseo y de observación de aves. Pequeño embalse natural recrecido artificialmente. &lt;br /&gt;&lt;br /&gt;Leyendas centenarias dicen que esta laguna rodeada de misterio está habitada por hadas que exhalan lamentos o suspiros. La explicación científica a sus risas y silbidos es la presencia de aves como el ánade silbón o la gaviota reidora."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Cascante"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "610901"
+          },
+          {
+            "name": "lat",
+            "value": "4648742"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leitzalarrea",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.899719,43.1198"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Leitzalarrea"
+          },
+          {
+            "name": "tipo",
+            "value": "Bosques"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Leitzalarrea &lt;/b&gt;es un bosque extraordinario, y muy importante desde el punto de vista natural. Más o menos comprende la mitad del terreno de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2332&amp;amp;idRC=4913\"&gt;Leitza&lt;/a&gt; y mayormente está poblado de hayas y robles, aunque también son abundantes los prados y helechales. Además hay transplantados ejemplares de varios tipos de especies de coníferas.&lt;br /&gt;&lt;br /&gt;Pero no todo es naturaleza en Leitzalarrea. Los &lt;b&gt;monumentos megalíticos &lt;/b&gt;diseminadospor todo el terreno nos demuestran la antigüedad de la presencia del ser humano en la zona."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Leitza"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "589508"
+          },
+          {
+            "name": "lat",
+            "value": "4774706"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador Barranco de Peñalén",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.825471,42.319015"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador Barranco de Peñalén"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situado a 7 km de Funes, es un rincón de belleza singular y &lt;strong&gt;atalaya perfecta&lt;/strong&gt; de la Ribera Alta. Desde aquí se divisan, en días claros, terrenos de las &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3023/\"&gt;Bardenas Reales&lt;/a&gt;&lt;/strong&gt;, Villafranca, Marcilla e incluso por el norte, las cumbres nevadas de los &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/propuestas/pirineos/\"&gt;Pirineos&lt;/a&gt;&lt;/strong&gt;. Al pie del Barranco, que tiene una caída de 392 metros, &lt;strong&gt;funden sus aguas&lt;/strong&gt; los ríos Arga y Aragón para encontrarse con el Ebro en Milagro, tres kilómetros más abajo."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Funes"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.villadefunes.com'>www.villadefunes.com</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "596785"
+          },
+          {
+            "name": "lat",
+            "value": "4685865"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Ariztokia",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.279264,42.940141"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Ariztokia"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": " Desde este impresionante mirador rodeado de vegetación, se intuye la cercanía de la &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3065/\"&gt;Selva de Irati&lt;/a&gt;&lt;/strong&gt;. Es accesible por un sencillo sendero de roca natural hasta alcanzar la cima, pasando por un pequeño tramo de escaleras y con barandilla en casi todo el trayecto. La geografía del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3065/\"&gt;Valle de Aezkoa&lt;/a&gt; se extiende ante nuestros ojos con la capital del valle, Aribe; sobre ella encontramos la cima rocosa del Berrendi y el curso del río Irati, que ha servido durante años para el transporte de la madera mediante almadías."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Garralda"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.aezkoa.net'>www.aezkoa.net</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "640392"
+          },
+          {
+            "name": "lat",
+            "value": "4755604"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Azpirotz",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.940899,43.034922"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Azpirotz"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Espectacular mirador sobre el &lt;strong&gt;valle de Araxes y las Malloas&lt;/strong&gt;, situado en el Área de Descanso deAzpirotz y a tan solo &lt;st1:metricconverter productid=\"2 kil?metros\"&gt;2 kilómetros&lt;/st1:metricconverter&gt; de &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidad/2334/Lekunberri.htm\"&gt;Lekunberri&lt;/a&gt;&lt;/strong&gt;. Además de las vistas, el área está acondicionada con zona ajardinada, mobiliario y papeleras.&lt;br /&gt;&lt;br /&gt; A pesar de la cercanía de la autovía, el visitante puede disfrutar de un momento de descanso sin igual. La facilidad de acceso permite asomarse a este balcón acondicionado con mesa panorámica en cualquier momento del año."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " A-15 PK"
+          },
+          {
+            "name": "num1",
+            "value": "131"
+          },
+          {
+            "name": "num2",
+            "value": "hacia Pamplona"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.cfnavarra.es/obraspublicas/carreteras/descanso.htm'>www.cfnavarra.es/obraspublicas/carreteras/descanso.htm</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "586277"
+          },
+          {
+            "name": "lat",
+            "value": "4765237"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Etxauri",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.843163,42.785984"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Etxauri"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Ubicado a pie de carretera en el &lt;strong&gt;Puerto de Etxauri &lt;/strong&gt;a &lt;st1:metricconverter productid=\"840 metros\"&gt;840 metros&lt;/st1:metricconverter&gt; de altitud, una mesa panorámica nos explica las hermosas vistas hacia &lt;st1:personname productid=\"la Cuenca\"&gt;la Cuenca&lt;/st1:personname&gt; de Pamplona, las paredes rocosas de &lt;st1:personname productid=\"la Sierra\"&gt;la Sierra&lt;/st1:personname&gt; de Sarbil y el monte el Perdón. En días claros permite percibir la silueta de los montes pirenaicos y de los más cercanos: Arangoiti, peña Izaga, Higa de Monreal, etc, así como bajo nuestra mirada el río Arga que baña las tierras cultivadas de cereal, vid y cerezas, las cuales gozan de una gran fama."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " Mirador de Etxauri"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "594619"
+          },
+          {
+            "name": "lat",
+            "value": "4737698"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Fitero",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.907799,42.059306"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Fitero"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El Mirador se encuentra a 200 metros del afamado &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/4449/\"&gt;Balneario de Fitero&lt;/a&gt;, y ofrece una magnífica vista panorámica del valle del Alhama, salpicado de pinares y viñedos. Se llega a él mediante un agradable paseo entre pinos, bancos y puentes, apto para todos los públicos.&lt;br/&gt;Su belleza y tranquilidad lo convierten en un lugar &lt;strong&gt;especialmente dedicado a familias&lt;/strong&gt;, que pueden disfrutar de las instalaciones del centro termal, que se caracteriza por las excelentes cualidades terapéuticas de sus aguas, recorrer alguno de los senderos habilitados o visitar la villa de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/2145/\"&gt;Fitero&lt;/a&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Fitero"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.fitero.org'>www.fitero.org</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "590370"
+          },
+          {
+            "name": "lat",
+            "value": "4656938"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Gallipienzo ",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.410307,42.523726"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Gallipienzo "
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "&lt;strong&gt;Localidad medieval&lt;/strong&gt; enclavada en un cerro, con puro carácter defensivo que ofrece una panorámica de 360º, con vistas hacia el río Aragón, los &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/propuestas/pirineos/\"&gt;Pirineos&lt;/a&gt;&lt;/strong&gt;, la Baja Montaña y &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2555/Sanguesa.htm\"&gt;Sangüesa&lt;/a&gt;, y el entorno de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/2617/\"&gt;Ujué&lt;/a&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Gallipienzo"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "630571"
+          },
+          {
+            "name": "lat",
+            "value": "4709152"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de la Foz de Arbaiun",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.167423,42.701672"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de la Foz de Arbaiun"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Fantástica terraza para admirar la belleza de la &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3035/\"&gt;foz deArbaiun&lt;/a&gt;, un profundo cañón excavado por el río Salazar en la roca caliza de la Sierra de Leire, de casi 6 kilómetros de longitud y unos 100 metros de profundas paredes verticales. Es un paraíso para los amantes de la observación de aves, ya que en todo momento pueden avistarse buitres (cuenta con la &lt;strong&gt;mayor colonia de buitres leonados&lt;/strong&gt; de Navarra), águilas reales, quebrantahuesos, etc."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "650093"
+          },
+          {
+            "name": "lat",
+            "value": "4729315"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Larra-Belagua",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-0.853442,42.943716"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Larra-Belagua"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Ubicado a &lt;st1:metricconverter productid=\"17 kil?metros\"&gt;17 kilómetros&lt;/st1:metricconverter&gt; de &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2260&amp;amp;idRC=4841\"&gt;Isaba&lt;/a&gt;&lt;/strong&gt; (NA-137), en el puerto de Belagua, justamente debajo del antiguo refugio-cuartel de Yeguaceros. A pie de carretera, el mirador se encuentra en uno de los parajes de mayor riqueza natural, con vistas al &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Patrimonio/3067/Valle-de-Belagua.htm\"&gt;valle de Belagua&lt;/a&gt;&lt;/strong&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "CR NA-137,"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2",
+            "value": "km 49-50"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "675125"
+          },
+          {
+            "name": "lat",
+            "value": "4756800"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de las Malloas",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.980083,43.026029"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de las Malloas"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Espectacular mirador frente a la muralla escarpada de &lt;strong&gt;las Malloas&lt;/strong&gt;, las aldeas del &lt;strong&gt;valle de Araitz&lt;/strong&gt; y la &lt;strong&gt;cuenca del Araxes&lt;/strong&gt;. Se accede por una pista forestal que sale de detrás de la iglesia de la localidad hacia el monte, con fuerte pendiente y arbolado.La distancia aproximada entre el pueblo y el mirador es de unos 20 minutos.&lt;br/&gt;El recorrido forma parte de un antiguo sendero circular que atraviesa el &lt;strong&gt;Encinar de Betelu&lt;/strong&gt;, el más septentrional de Europa, un bosque mediterráneo más característico de las zonas del sur que de esta área."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Betelu"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.betelu.es'>www.betelu.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "583097"
+          },
+          {
+            "name": "lat",
+            "value": "4764210"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Pikatua",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.011621,42.958091"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Pikatua"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Ubicado a pie de carretera, nos ofrece unas impresionantes vistas a la &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3041/\"&gt;Selva de Irati&lt;/a&gt;&lt;/strong&gt;, la sierra de Abodi y al primer “dos mil” del Pirineo, el pico de Orhi. En verano los rebaños de ovejas y cabras pastan en las inmediaciones, y en invierno, a través de la antigua Cañada de los Salacencos, se dirigen a las &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Patrimonio/3023/Bardenas-Reales.htm\"&gt;Bardenas Reales&lt;/a&gt;&lt;/strong&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Izalzu"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "662182"
+          },
+          {
+            "name": "lat",
+            "value": "4758079"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador de Ujué",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.511928,42.503765"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador de Ujué"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El mirador está incluido en la Ruta del Vino de Navarra, y se encuentra a pie de carretera, a poco más de un kilómetro de la impresionante atalaya de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/2617/\"&gt;&lt;strong&gt;Ujué&lt;/strong&gt;,&lt;/a&gt; ofreciendo una magnífica panorámica de la zona media de Navarra, con su típica vegetación mediterránea, algunas de sus poblaciones y la &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3148/\"&gt;laguna de Pitillas&lt;/a&gt;, también incluida en la Ruta de los Paisajes."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Ujué"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.ujue.info'>www.ujue.info</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "622263"
+          },
+          {
+            "name": "lat",
+            "value": "4706784"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador del Balcón de Pilatos o de Ubaba",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.143823,42.798866"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador del Balcón de Pilatos o de Ubaba"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Se trata de un espectacular mirador en el borde sur del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3168/\"&gt;Parque Natural de Urbasa-Andía&lt;/a&gt;, con unacaída de 300 metros, desde el que se observa el valle de las Améscoas y la impresionante cascada del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/4310/\"&gt;nacedero del Urederra &lt;/a&gt;,incluido también en la &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Rutas/5873/Ruta-de-los-Paisajes-de-Navarra.-Agua-y-Miradores.htm\"&gt;Ruta de los Paisajes&lt;/a&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "570013"
+          },
+          {
+            "name": "lat",
+            "value": "4738835"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador del Caballo Blanco",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.64093,42.821215"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador del Caballo Blanco"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "Cuenca de Pamplona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Sobre el Baluarte del Redín se ubica uno de los &lt;strong&gt;rincones más pintorescos&lt;/strong&gt; del casco urbano de&lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2513/Pamplona.htm\"&gt;Pamplona&lt;/a&gt;,&lt;/strong&gt; punto central en el recinto amurallado de la ciudad yvisitable de forma guiada, ya que las fortificaciones de Pamplona están incluidas en la &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/propuestas/descubra-reyno/recurso.aspx?o=5411\"&gt;Ruta de Castillos y Fortalezas&lt;/a&gt;.&lt;/strong&gt;&lt;br/&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "31000"
+          },
+          {
+            "name": "localidad",
+            "value": "Pamplona"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "611097"
+          },
+          {
+            "name": "lat",
+            "value": "4741857"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador del Cerro de Santa Bárbara",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.606947,42.067234"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador del Cerro de Santa Bárbara"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situado sobre un emblemático altozano, desde el que obtendrá una hermosa perspectiva de la ciudad de &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2606&amp;amp;masInf=1\"&gt;Tudela&lt;/a&gt;&lt;/strong&gt;, su afamada huerta (conocida como “la mejana”), el &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Patrimonio/3023/Bardenas-Reales.htm\"&gt;parque natural de las Bardenas Reales&lt;/a&gt;&lt;/strong&gt; y el Ebro, y es accesible para todos los públicos."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "CL Subida al Monumento"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Tudela"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.tudela.es'>www.tudela.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "615249"
+          },
+          {
+            "name": "lat",
+            "value": "4658180"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirador Sierra del Perdón",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.736826,42.735178"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Mirador Sierra del Perdón"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situado a 770 m de altitud, es un mirador natural de excepcionales vistas panorámicas con orientación al norte hacia la capital y montañas pirenaicas y al sur hacia las tierras de cereales y pueblos medievales cargados de historia. Es paso obligado de los peregrinos que realizan el &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/propuestas/camino-santiago/\"&gt;Camino de Santiago&lt;/a&gt;&lt;/strong&gt;, provenientes de &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2513/Pamplona.htm\"&gt;Pamplona&lt;/a&gt;&lt;/strong&gt; en dirección a &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2523/Puenta-la-Reina.htm\"&gt;Puente la Reina.&lt;/a&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "603401"
+          },
+          {
+            "name": "lat",
+            "value": "4732181"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miradores del Parque Natural de las Bardenas Reales y Tudela",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.503415,42.211857"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Miradores del Parque Natural de las Bardenas Reales y Tudela"
+          },
+          {
+            "name": "tipo",
+            "value": "Miradores"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/3023/\"&gt;Parque Natural de las Bardenas Reales&lt;/a&gt;, próximo a &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/relacionado/2606/\"&gt;Tudela&lt;/a&gt;, es un territorio de belleza salvaje declarado Reserva de la Biosfera. Un paisaje semidesértico que impacta y sorprendey que se dividide en tres zonas: &lt;strong&gt;el Plano&lt;/strong&gt;, tierra de cultivo caracterizada por las elevaciones más suaves; &lt;strong&gt;la Bardena Blanca&lt;/strong&gt;, la más fotografiada y visitada donde se encuentran las principales formaciones Castildetierra y Pisquerra (y un Polígono de Tiro que explica el vuelo de aviones militares); y &lt;strong&gt;la Bardena Negra&lt;/strong&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.bardenasreales.es'>www.bardenasreales.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "623533"
+          },
+          {
+            "name": "lat",
+            "value": "4674383"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque de la Media Luna",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.633938,42.814855"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque de la Media Luna"
+          },
+          {
+            "name": "tipo",
+            "value": "Parques y jardines"
+          },
+          {
+            "name": "zona",
+            "value": "Cuenca de Pamplona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Bordeando el centro de la ciudad, en el Segundo Ensanche, y en un extremo de las murallas, el Parque de la Media Luna, &lt;B&gt;uno de los más bellos y antiguos de Pamplona&lt;/B&gt;, debe su nombre a su diseño en forma de luna menguante. &lt;br/&gt;&lt;br/&gt;Lugar bucólico y de marcado estilo romántico, este parque dispone de excelentes vistas gracias a un privilegiado y largo mirador sobre el río Arga."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "PR Parque de la Media Luna"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Pamplona"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "611680"
+          },
+          {
+            "name": "lat",
+            "value": "4741160"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque de la Memoria ",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.056515,42.382363"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque de la Memoria "
+          },
+          {
+            "name": "tipo",
+            "value": "Parques y jardines"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "En esta pequeña localidad de agricultores ubicada en la Ribera de Navarra, conocida como el pueblo de las viudas, se ubica este &lt;strong&gt;parque público de 6.000 metros cuadrados&lt;/strong&gt;, estructurado en diferentes áreas de descanso, construido desde la iniciativa ciudadana y financiado en parte por suscripción popular."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Sartaguda"
+          },
+          {
+            "name": "tfno1",
+            "value": "948667007"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "ayuntamiento@sartaguda.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.sartaguda.net'>www.sartaguda.net</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "577668"
+          },
+          {
+            "name": "lat",
+            "value": "4692662"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque Fluvial del Arga",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.636094,42.819176"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque Fluvial del Arga"
+          },
+          {
+            "name": "tipo",
+            "value": "Parques y jardines"
+          },
+          {
+            "name": "zona",
+            "value": "Cuenca de Pamplona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El Arga es el río de &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/Productos/pamplona.htm\"&gt;&lt;strong&gt;Pamplona&lt;/strong&gt;&lt;/a&gt;, y su curso se ha convertido en un variopinto paseo natural de cerca de &lt;b&gt;12 kilómetros&lt;/b&gt;. Su millón de metros cuadrados lo convierten en el primer y gran pulmón verde de la ciudad."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": "PS por el río Arga"
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Pamplona"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "611496"
+          },
+          {
+            "name": "lat",
+            "value": "4741637"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque Natural de Urbasa-Andía",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.10324,42.82984"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque Natural de Urbasa-Andía"
+          },
+          {
+            "name": "tipo",
+            "value": "Montes y sierras"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Hace millones de años el relieve de una gran meseta conocida como &lt;em&gt;Zunbeltz&lt;/em&gt; o &lt;em&gt;Lizarraga&lt;/em&gt; cambió para siempre. Sucedió un gigantesco hundimiento tectónico que provocó la apertura de un gran pasillo entre las ya conocidas sierras de &lt;b&gt;Urbasa y Andía&lt;/b&gt;. A caballo entre la Navarra atlántica y mediterránea, ambas forman un extenso &lt;b&gt;Parque Natural&lt;/b&gt; al oeste de la Comunidad Foral. &lt;br /&gt;&lt;br /&gt;Prados y frondosos hayedos alternan en este espacio protegido de paisaje idílico, cuyo borde sur cae bruscamente sobre el Valle de las Améscoas formando el impresionante mirador natural del circo del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=4310\"&gt;&lt;b&gt;nacedero del Urederra&lt;/b&gt;&lt;/a&gt;. "
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "608417635"
+          },
+          {
+            "name": "tfno2",
+            "value": "848426733"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "comarca.atlantica@navarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.parquedeurbasa.es'>www.parquedeurbasa.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "573295"
+          },
+          {
+            "name": "lat",
+            "value": "4742309"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque Natural de Urbasa-Andía",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.10324,42.82984"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque Natural de Urbasa-Andía"
+          },
+          {
+            "name": "tipo",
+            "value": "Parques naturales"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Hace millones de años el relieve de una gran meseta conocida como &lt;em&gt;Zunbeltz&lt;/em&gt; o &lt;em&gt;Lizarraga&lt;/em&gt; cambió para siempre. Sucedió un gigantesco hundimiento tectónico que provocó la apertura de un gran pasillo entre las ya conocidas sierras de &lt;b&gt;Urbasa y Andía&lt;/b&gt;. A caballo entre la Navarra atlántica y mediterránea, ambas forman un extenso &lt;b&gt;Parque Natural&lt;/b&gt; al oeste de la Comunidad Foral. &lt;br /&gt;&lt;br /&gt;Prados y frondosos hayedos alternan en este espacio protegido de paisaje idílico, cuyo borde sur cae bruscamente sobre el Valle de las Améscoas formando el impresionante mirador natural del circo del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=4310\"&gt;&lt;b&gt;nacedero del Urederra&lt;/b&gt;&lt;/a&gt;. "
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "608417635"
+          },
+          {
+            "name": "tfno2",
+            "value": "848426733"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "comarca.atlantica@navarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.parquedeurbasa.es'>www.parquedeurbasa.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "573295"
+          },
+          {
+            "name": "lat",
+            "value": "4742309"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque Natural del Señorío de Bertiz",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.612261,43.139411"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque Natural del Señorío de Bertiz"
+          },
+          {
+            "name": "tipo",
+            "value": "Bosques"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "¿Te atrae la idea de recorrer un precioso jardín histórico-artístico y descubrir especies tan singulares como &lt;em&gt;gingkos&lt;/em&gt; de China, secuoyas de California, castaños de Balcanes y nenúfares? ¿Deseas conocer a simpáticos animales como mirlos, ardillas o pájaros carpinteros? ¿Te gustaría pasar una jornada tranquila sintiendo el latido del corazón del bosque? Todo esto es posible en el Parque Natural del Señorío de &lt;b&gt;Bertiz&lt;/b&gt;. 2.052 hectáreas de exuberante vegetación a 49 km. al norte de Pamplona. Un rincón verde de gran belleza en el &lt;b&gt;Pirineo occidental navarro&lt;/b&gt;, a orillas del río Bidasoa.&lt;br /&gt;&lt;br /&gt;Además, es el único lugar de España que cuenta en su hábitat con las siete especies distintas de pájaros carpinteros que habitan en la península. Un indicador de la buena conservación de este Parque Natural ya que los pícidos sólo habitan en bosques maduros donde haya árboles de gran porte y bien conservados."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Oieregi"
+          },
+          {
+            "name": "tfno1",
+            "value": "948592421"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "948592422"
+          },
+          {
+            "name": "email",
+            "value": "cinberti@navarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.parquedebertiz.es'>www.parquedebertiz.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "612857"
+          },
+          {
+            "name": "lat",
+            "value": "4777231"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Parque Natural del Señorío de Bertiz",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.612261,43.139411"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Parque Natural del Señorío de Bertiz"
+          },
+          {
+            "name": "tipo",
+            "value": "Parques naturales"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "¿Te atrae la idea de recorrer un precioso jardín histórico-artístico y descubrir especies tan singulares como &lt;em&gt;gingkos&lt;/em&gt; de China, secuoyas de California, castaños de Balcanes y nenúfares? ¿Deseas conocer a simpáticos animales como mirlos, ardillas o pájaros carpinteros? ¿Te gustaría pasar una jornada tranquila sintiendo el latido del corazón del bosque? Todo esto es posible en el Parque Natural del Señorío de &lt;b&gt;Bertiz&lt;/b&gt;. 2.052 hectáreas de exuberante vegetación a 49 km. al norte de Pamplona. Un rincón verde de gran belleza en el &lt;b&gt;Pirineo occidental navarro&lt;/b&gt;, a orillas del río Bidasoa.&lt;br /&gt;&lt;br /&gt;Además, es el único lugar de España que cuenta en su hábitat con las siete especies distintas de pájaros carpinteros que habitan en la península. Un indicador de la buena conservación de este Parque Natural ya que los pícidos sólo habitan en bosques maduros donde haya árboles de gran porte y bien conservados."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Oieregi"
+          },
+          {
+            "name": "tfno1",
+            "value": "948592421"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "948592422"
+          },
+          {
+            "name": "email",
+            "value": "cinberti@navarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.parquedebertiz.es'>www.parquedebertiz.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "612857"
+          },
+          {
+            "name": "lat",
+            "value": "4777231"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pico de Ori",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.006136,42.988593"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Pico de Ori"
+          },
+          {
+            "name": "tipo",
+            "value": "Montes y sierras"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El monte Ori, &lt;b&gt;el “dos mil” más occidental del Pirineo&lt;/b&gt;, se muestra imponente y esbelto al norte del &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3312\"&gt;valle de Salazar&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;Su cumbre, a la que se accede en apenas una hora desde el aparcamiento situado en el alto de Larrau, ofrece unas &lt;b&gt;excepcionales vistas&lt;/b&gt; sobre la Selva de Irati y los picos cercanos. Si el día está despejado podrás incluso contemplar el Moncayo o el mar Cantábrico."
+          },
+          {
+            "name": "servicios",
+            "value": "Parking"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Ochagavía"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "&lt;ul&gt;&lt;li&gt;Duración aproximada: 2h 15 minutos.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Temporada del año recomendable: de primavera a otoño. Se aconseja el uso de calzado botas y ropa de abrigo.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;En invierno, debido a las probables nevadas, consultar el estado de las carreterasen la &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/oficinas-de-turismo/3273/oficina-de-turismo-de-ochagavia.htm\"&gt;Oficina de Turismo de Ochagavia&lt;/a&gt;. Es una ascensión de montaña que entraña sus riesgos."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "662549"
+          },
+          {
+            "name": "lat",
+            "value": "4761477"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Regata del Bidasoa y Malerreka",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.666997,43.28835"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Regata del Bidasoa y Malerreka"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La &lt;b&gt;Regata del Bidasoa&lt;/b&gt; comprende el territorio atravesado por el salmonero río Bidasoa, que le da nombre y que desemboca en las cercanas aguas del mar Cantábrico. Marcando el límite sur se asienta la comarca de &lt;b&gt;Malerreka&lt;/b&gt; formada por los valles de Santesteban y Basaburua Menor. Ambas zonas se encuentran en el noroeste navarro, allí donde el &lt;b&gt;Pirineo navarro&lt;/b&gt; ofrece su cara más amable, donde las montañas pierden altura hasta hundirse en el mar."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "608142"
+          },
+          {
+            "name": "lat",
+            "value": "4793699"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reserva Natural de San Juan Xar",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.709812,43.210474"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Reserva Natural de San Juan Xar"
+          },
+          {
+            "name": "tipo",
+            "value": "Otros espacios"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Un santuario espiritual dentro de otro santuario natural. Eso es San Juan Xar. Un espacio declarado &lt;strong&gt;Reserva Natural &lt;/strong&gt;en 1987 por atesorar el único bosque autóctono de carpes o &lt;i&gt;Carpinus betulus&lt;/i&gt;, también conocidos como abedulillos, de &lt;st1:personname productid=\"la pen?nsula. Y\"&gt;la península. Además del carpe, podremos ver castaños centenarios, arces, robles y fresnos.&lt;br /&gt;&lt;/st1:personname&gt;&lt;br /&gt;En el corazón de este paraje singular ubicado en pleno Pirineo occidental, encontramos una &lt;strong&gt;gruta-ermita &lt;/strong&gt;con una fuente de tres chorros cuyas aguas, que según la creencia popular, tienen milagrosos poderes curativos contra las afecciones de la piel."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Igantzi"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "604802"
+          },
+          {
+            "name": "lat",
+            "value": "4784996"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sendero Vía verde del ferrocarril Vasco-Navarro",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.035898,42.672275"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Sendero Vía verde del ferrocarril Vasco-Navarro"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El Camino Natural Vía Verde del Ferrocarril Vasco Navarro revive la huella del trenico, que entre los años 1927 y 1967, unió &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2116/EstellaLizarra.htm\" TARGET=\"_blank\"&gt;Estella-Lizarra&lt;/a&gt;&lt;/strong&gt; con &lt;strong&gt;Bergara&lt;/strong&gt;, pasando por &lt;strong&gt;Vitoria/Gasteiz&lt;/strong&gt;.&lt;br /&gt; &lt;br /&gt;El tramo navarro, de unos 30 kilómetros, comienza en la estación de autobuses de Estella-Lizarra, antigua estación de ferrocarril, y discurre por los municipios de la ribera del río Ega para adentrarse en la montaña alavesa.&lt;br /&gt; &lt;br /&gt;Un recorrido sencillo y seguro, que &lt;strong&gt;se puede recorrer a pie y en bicicleta&lt;/strong&gt;, disfrutando a su paso de un rico patrimonio ferroviario y cultural."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Zúñiga"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "teder@montejurra.com"
+          },
+          {
+            "name": "paginaweb",
+            "value": "teder.org/vasco-navarro/"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "578999"
+          },
+          {
+            "name": "lat",
+            "value": "4724873"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sendero Vía Verde del Plazaola",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.889589,43.001495"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Sendero Vía Verde del Plazaola"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La vía verde del Plazaola es un sendero de tránsito muy accesible, construido a partir de la vieja estructura del tren de vía estrecha que unía los 84 kilómetros que separan Pamplona de San Sebastián entre los años 1914 y 1953. Actualmente, &lt;strong&gt;se pueden recorrer un total de 54km&lt;/strong&gt; entre bosques y prados: 32 de ellos por Navarra y 22 en Gipuzkoa. &lt;br /&gt;&lt;br /&gt;La ruta comienza en la &lt;strong&gt;estación del Plazaola &lt;/strong&gt;en &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso/Localidades/2334/Lekunberri.htm\" TARGET=\"_blank\"&gt;Lekunberri&lt;/a&gt;&lt;/strong&gt; que hoy en día alberga la &lt;strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3272\" TARGET=\"_blank\"&gt;oficina de turismo&lt;/a&gt;&lt;/strong&gt;."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Lekunberri"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "La Kantina del Plazaola es una cafetería contigua a la Estación, que ofrece servicio de alquiler de bicis. Consulta los precios &lt;a NUM_OBJETO=\"2\" HREF=\"http://www.turismo.navarra.es/imgs/rrtt/03/02/01/00/4110DOCAJ2.PDF\" TARGET=\"_blank\"&gt;aquí&lt;/a&gt;."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "590506"
+          },
+          {
+            "name": "lat",
+            "value": "4761579"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sendero Vía Verde del Tarazonica",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.597352,42.058913"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Sendero Vía Verde del Tarazonica"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "La Ribera"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "La Vía Verde del Tarazonica se inicia al sur de Navarra en la monumental ciudad de &lt;strong&gt; &lt;/strong&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2606&amp;amp;idRC=5187\"&gt;&lt;strong&gt;Tudela&lt;/strong&gt;&lt;/a&gt; y discurre a lo largo de 22 kilómetros por un paraje de formas suaves y amables, hasta la localidad de &lt;strong&gt;Tarazona &lt;/strong&gt;(Aragón), el punto final del recorrido. &lt;br /&gt;&lt;br /&gt;Fue en 1885 cuando comenzó a funcionar este modesto ferrocarril de vía estrecha. Su lentitud le hizo ganarse el apodo del &lt;em&gt;\"Escachamatas\"&lt;/em&gt;. En 1953 se ensancharon los raíles para mejorar su servicio, pero tras unos años de decadencia, la línea cerró definitivamente en 1972."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Tudela"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "616058"
+          },
+          {
+            "name": "lat",
+            "value": "4657269"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sierra de Lokiz",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.194481,42.731387"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Sierra de Lokiz"
+          },
+          {
+            "name": "tipo",
+            "value": "Montes y sierras"
+          },
+          {
+            "name": "zona"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Ubicada en el centro oeste de Navarra, la sierra de Lokiz se extiende desde el corredor alavés de San Vicente de Arana y Santa Cruz de Campezo hasta los valles de Allín y Metauten con una longitud de unos 22 km y una superficie de 140 kilómetros cuadrados. Constituye el flanco meridional del &lt;b&gt;valle de Améscoa&lt;/b&gt;. &lt;br /&gt;&lt;br /&gt;Se trata de un macizo Kárstico de forma alargada y de carácter menos marcado que el de &lt;b&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3856\"&gt;Urbasa&lt;/a&gt;&lt;/b&gt;, con cuatro acuíferos principales. Cortes escarpados, pendientes de vértigo, cavidades escondidas y paredes monumentales dan forma a esta sierra paralela a Urbasa."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad"
+          },
+          {
+            "name": "tfno1",
+            "value": "948546503"
+          },
+          {
+            "name": "tfno2",
+            "value": "676128025"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "ayuntamiento@amescoabaja.org"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "&lt;p&gt;Contacto Junta Gestora Sierra de Lokiz (Ayuntamiento de Zudaire): 948 539 008 / 608 977 179 o &lt;a target=\"_blank\" href=\"https://mce_host/Inforeyno/Pantallas/ayuntamiento@amescoabaja.org\"&gt;ayuntamiento@amescoabaja.org&lt;/a&gt;&lt;/p&gt;"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "565942"
+          },
+          {
+            "name": "lat",
+            "value": "4731301"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de Aezkoa",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.230459,42.964953"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de Aezkoa"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "&lt;B&gt;Al abrigo de los Pirineos&lt;/B&gt;, el &lt;B&gt;valle de Aezkoa&lt;/B&gt; es una extensa alfombra verde de más de 12.000 hectáreas de bosque que da cobijo a nueve municipios. Entre ellos se encuentra el más elevado de Navarra, Abaurrea Alta, el balcón de Aezkoa."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Aribe"
+          },
+          {
+            "name": "tfno1",
+            "value": "948764375"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "jvaezkoa@infolocal.org"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.aezkoa.net'>www.aezkoa.net</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "&lt;b&gt;MIRADORES:&lt;/b&gt; instalados 7 miradores interpretativos con mesas panorámicas (información sobre paisaje, ecosistema, historia y gentes): Ariztokia, Abaurrea Alta, Abaurrea Baja, Azpegi, embalse de Irabia, Hiriberri/Villanueva de Aezkoa y ermita de San Joaquín de Aribe."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "644316"
+          },
+          {
+            "name": "lat",
+            "value": "4758442"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de Baztan",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.506428,43.157556"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de Baztan"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Enclavado en el &lt;b&gt;Pirineo&lt;/b&gt; atlántico, entre los puertos de Belate y Otsondo el &lt;b&gt;valle de Baztan&lt;/b&gt; constituye el municipio más extenso de Navarra."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Elizondo"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "baztan@baztan.eus "
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.baztan.eus'>www.baztan.eus</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "621428"
+          },
+          {
+            "name": "lat",
+            "value": "4779394"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de la Ultzama",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.686038,43.009506"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de la Ultzama"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "¿En qué lugar puede a la vez hacer senderismo, perderse en &lt;b&gt;un bosque milenario&lt;/b&gt;, jugar al golf entre robles, montar a caballo o degustar una típica cuajada...?"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Larraintzar"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.valledeultzama.es'>www.valledeultzama.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "607083"
+          },
+          {
+            "name": "lat",
+            "value": "4762708"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de Lana y sus carboneras",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.250038,42.709989"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de Lana y sus carboneras"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El valle de Lana se encuentra en la Navarra Media occidental, a 72 km. de Pamplona. Su aislamiento geográfico y el frío invernal le han valido el sobrenombre de la &lt;em&gt;Rusia navarra&lt;/em&gt;. Es uno de los valles más recónditos y desconocidos de la región, un lugar donde parece que el tiempo se ha detenido."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Galbarra"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "correo@valledelana.com"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.valledelana.com'>www.valledelana.com</a>"
+          },
+          {
+            "name": "observaciones",
+            "value": "El verano es la época de las carboneras."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "561415"
+          },
+          {
+            "name": "lat",
+            "value": "4728883"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de Roncal",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-0.923605,42.845795"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de Roncal"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Situado en pleno &lt;b&gt;Pirineo&lt;/b&gt;, en la muga con Francia y Huesca, el &lt;b&gt;Valle de Roncal&lt;/b&gt; ofrece una acusada personalidad forjada a base de tradiciones ancestrales, una sabrosa gastronomía y naturaleza en estado puro. Siete pueblos únicos componen este valle cuyos principales recursos son la explotación forestal, la ganadería y el turismo."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Roncal"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "oit.roncal@navarra.es"
+          },
+          {
+            "name": "paginaweb",
+            "value": "<a target=\"_blank\" href='http://www.vallederoncal.es'>www.vallederoncal.es</a>"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "669669"
+          },
+          {
+            "name": "lat",
+            "value": "4745782"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Valle de Salazar",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.097756,42.888489"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Valle de Salazar"
+          },
+          {
+            "name": "tipo",
+            "value": "Valles"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El valle de Salazar se enclava &lt;b&gt;en el corazón del Pirineo navarro&lt;/b&gt; y ofrece una estampa con múltiples perspectivas. Pequeños pueblos de cuidada arquitectura remontan el río Salazar hasta llegar a &lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2445\"&gt;Ochagavía&lt;/a&gt;, la localidad más pintoresca del valle."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Ezcároz"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email",
+            "value": "juntavallesalazar@gmail.com"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "655331"
+          },
+          {
+            "name": "lat",
+            "value": "4750187"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vía Verde de la Foz de Lumbier",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.314668,42.668255"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Vía Verde de la Foz de Lumbier"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Barrancos calizos con paredes de vértigo, susurros de un río, aire cortado por las alas de buitres leonados y el eco del apagado traqueteo de un ferrocarril. Es el “Irati” a su paso por la &lt;B&gt;&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=3039\"&gt;Foz de Lumbier, Reserva Natural&lt;/A&gt;&lt;/B&gt;.&lt;br/&gt;&lt;br/&gt;"
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Lumbier"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "Se trata del antiguo camino del Ferrocarril del Irati que atraviesa el interior de la foz. (Longitud: 2,6 Km. ida y vuelta.)"
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "638107"
+          },
+          {
+            "name": "lat",
+            "value": "4725353"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vía Verde del Bidasoa",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-1.645268,43.129767"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Vía Verde del Bidasoa"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "Pirineos"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "El ferrocarril del &lt;strong&gt;Bidasoa&lt;/strong&gt;, conocido como&lt;em&gt; tren Txikito&lt;/em&gt;, nació en 1898 como tren minero para comunicar Irún con las minas de &lt;strong&gt;Endarlatsa&lt;/strong&gt; en Navarra. En 1916 esta línea fue ampliada hasta &lt;strong&gt;Elizondo&lt;/strong&gt; convirtiéndose en tren de pasajeros."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Legasa"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "Se recomienda el uso de frontales o linternas en el paso de los túneles."
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "610190"
+          },
+          {
+            "name": "lat",
+            "value": "4776116"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vía Verde del ferrocarril Vasco-Navarro",
+      "styleUrl": "#Natural",
+      "point": {
+        "coordinates": "-2.035898,42.672275"
+      },
+      "extendedData": {
+        "data": [
+          {
+            "name": "nombre",
+            "value": "Vía Verde del ferrocarril Vasco-Navarro"
+          },
+          {
+            "name": "tipo",
+            "value": "Vías verdes"
+          },
+          {
+            "name": "zona",
+            "value": "Zona Media"
+          },
+          {
+            "name": "categoria",
+            "value": "Natural"
+          },
+          {
+            "name": "descripcion",
+            "value": "Hace ya más de cuarenta años que llegó el ocaso para el \"trenico” vasco-navarro. Éste dejó de pitar al reanudar su marcha en la salida de cada estación. Este ferrocarril unía&lt;a target=\"_blank\" href=\"http://www.turismo.navarra.es/esp/organice-viaje/recurso.aspx?o=2116\"&gt;Estella-Lizarra&lt;/a&gt; con &lt;strong&gt;Vitoria-Gasteiz &lt;/strong&gt;y &lt;strong&gt;Bergara &lt;/strong&gt;y atravesaba parajes de belleza sin igual."
+          },
+          {
+            "name": "servicios"
+          },
+          {
+            "name": "direccion",
+            "value": " "
+          },
+          {
+            "name": "num1",
+            "value": "0"
+          },
+          {
+            "name": "num2"
+          },
+          {
+            "name": "cp",
+            "value": "0"
+          },
+          {
+            "name": "localidad",
+            "value": "Zúñiga"
+          },
+          {
+            "name": "tfno1",
+            "value": "0"
+          },
+          {
+            "name": "tfno2",
+            "value": "0"
+          },
+          {
+            "name": "fax",
+            "value": "0"
+          },
+          {
+            "name": "email"
+          },
+          {
+            "name": "paginaweb"
+          },
+          {
+            "name": "observaciones",
+            "value": "Balizada desde Murieta hasta Zúñiga (Navarra). En Álava prosigue el balizaje hasta Vitoria-Gasteiz. "
+          },
+          {
+            "name": "plazas",
+            "value": "0"
+          },
+          {
+            "name": "lng",
+            "value": "578999"
+          },
+          {
+            "name": "lat",
+            "value": "4724873"
+          }
+        ]
+      }
+    }
+  ]
+}

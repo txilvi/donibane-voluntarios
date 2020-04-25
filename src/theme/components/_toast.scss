@@ -1,0 +1,32 @@
+.toast-md {
+  &.errorToast {
+    div.toast-container:before {
+      display: inline-block;
+      padding-left: 16px;
+      content: "\f104";
+      color: red;
+      font-size: 35px;
+      font-family: "ionicons";
+    }
+  }
+  &.succesToast {
+    div.toast-container:before {
+      display: inline-block;
+      padding-left: 16px;
+      content: "\f14a";
+      color: green;
+      font-size: 35px;
+      font-family: "Ionicons";
+    }
+  }
+  &.warningToast {
+    div.toast-container:before {
+      display: inline-block;
+      padding-left: 16px;
+      content: "\f3a5";
+      color: orange;
+      font-size: 35px;
+      font-family: "Ionicons";
+    }
+  }
+}

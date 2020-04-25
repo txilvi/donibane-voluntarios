@@ -1,0 +1,76 @@
+custom-header {
+    .icon {
+        color: $c-verde-oscuro;
+        width: 70%;
+    }
+
+    .header-block {
+        padding-top: 10px;
+
+        img {
+            display: inline-block;
+            vertical-align: top;
+            height: auto;
+            margin-right: 20px;
+            width: 18%;
+
+            @include respond-to("mobile") {
+                width: 24%;
+            }
+        }
+
+        .header-titles {
+            display: inline-block;
+            width: 74%;
+            font-weight: 600;
+
+            @include respond-to("mobile") {
+                width: 68%;
+            }
+
+            .header-title {
+                color: $c-verde-oscuro;
+                font-size: 38px;
+                font-family: 'BrainFlowerEuro';
+
+                @include respond-to("mobile") {
+                    font-size: 38px;
+                }
+            }
+
+            .header-subtitle {
+                display: inline;
+                color: $c-negro;
+                font-size: 28px;
+                font-family: 'FoxInTheSnow';
+                @include respond-to("mobile") {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .idioma {
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 20px;
+            float: right;
+
+            @include respond-to("mobile") {
+                position: absolute;
+                bottom: 10px;
+                right: 0px;
+                margin-top: 0px;
+                font-size: 16px;
+            }
+
+            span {
+                margin: 10px;
+
+                &.lang-selected {
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+ion-list {
+    button.item-md {
+        border-bottom: 1px solid $c-gris-suave;
+        .item-inner {
+            border-bottom: none !important;
+        }
+    }
+    /*ion-label {
+        font-size: 15px;
+    }
+    .item-md {
+        padding-left: 0px;
+    }
+    .item-inner {
+        padding-left: 24px;
+    }
+    .list-item-suave {
+        color: $c-gris-oscuro;
+        font-style: italic;
+        font-size: 14px;
+    }
+    .list-item-multiple-lines {
+        padding-top: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+    }*/
+}

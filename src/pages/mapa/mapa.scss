@@ -1,0 +1,21 @@
+mapa-page{
+    .titulo {
+        .texto {
+            margin-bottom: 20px;
+            color: $c-azul-oscuro;
+            font-family: 'FoxInTheSnow';
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .imagen {
+            max-width: 90%;
+        }
+    }
+    .descripcion {
+        padding: 20px 30px;
+        line-height: 1.3;
+        text-align: center;
+        font-family: 'FallisComing';
+        font-size: 34px;
+    }
+}
