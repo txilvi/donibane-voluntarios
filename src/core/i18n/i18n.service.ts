@@ -1,12 +1,10 @@
 import { Injectable } from '@angular/core';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
 import { Observable } from 'rxjs/Observable';
-//import { Config } from 'ionic-angular';
 
 import { Globalization } from '@ionic-native/globalization';
 import { Logger } from '../logger/logger.service';
 import * as eu from './translations/eu.json';
-//import { FCMProvider } from '@shared/providers/fcm.provider';
 
 const log = new Logger('I18nService');
 const languageKey = 'language';
@@ -30,9 +28,7 @@ export class I18nService {
 
   constructor(
     private translateService: TranslateService,
-    private globalization: Globalization,
-    //private fcmProvider: FCMProvider
-    //private config: Config
+    private globalization: Globalization
   ) {
     this.repairEmptyTranslations(eu);
     this.translateService.setTranslation('eu', eu);
@@ -75,7 +71,6 @@ export class I18nService {
       language = 'es';
     }
     log.debug(`Language set to ${language}`);
-    //this.configTopicsNotifications(language);
     this.translateService.use(language);
   }
 

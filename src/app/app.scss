@@ -23,20 +23,33 @@ ion-menu {
       background: $c-amarillo-muy-claro;
     }
   }
+  img {
+    height: auto;
+    width: 45px;
+  }
 }
 .menu-title {
     margin-left: 20px;
-    display: flex;
-    align-items: center;
-    img {
-      height: auto;
-      width: 45px;
-    }
-
+    display: inline-block;
+    width: 200px;
     .title {
-      margin-left: 20px;
-      font-family: 'ShowcaseSans';
-      font-size: 30px;
+      color: $c-verde-oscuro;
+      font-family: 'BrainFlowerEuro';
+      font-size: 28px;
       font-weight: 600;
     }
+
+    .subtitle {
+        color: $c-negro;
+        font-size: 20px;
+        font-family: 'FoxInTheSnow';
+    }
+}
+
+ion-label {
+  img {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
 }

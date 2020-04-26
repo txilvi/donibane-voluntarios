@@ -20,7 +20,7 @@ export class SanJuanXarApp {
   rootPage: any = HomePage;
   srcLogo: string;
   pages: any[] = [
-   // { component: ActividadesListPage , title: '¿Qué te apetece hacer?', icon: 'assets/imgs/actividades_icon.gif' }
+    { component: HomePage , title: 'Inicio', icon: 'assets/imgs/icons/ayuda.png' }
   ];
 
   constructor(

@@ -2,9 +2,13 @@ ion-menu {
   ion-header img {
     width: 60px;
   }
-
   ion-list ion-item {
       cursor: pointer;
+  }
+  ion-label {
+    img {
+      width: 40px;
+    }
   }
   .scroll-content {
     overflow-y: auto;
