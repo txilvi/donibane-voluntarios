@@ -1,53 +1,53 @@
 <custom-header [title]="title"></custom-header>
 <ion-content>
-  <div translate class="descripcion">
-    <span translate>
-      Desde el  
-    </span>
-    <span class="destacado" translate>
-      Pacto por la Persona Mayor
-    </span>
-    <span translate>
-      y
-    </span>
-    <span class="destacado" translate>
-      Maratxa
-    </span>
-    <span translate>
-      estamos creando una red de
-    </span>
-    <span class="destacado" translate>
-      voluntari@s
-    </span>
-    <span translate>
-      para ayudar a las personas que lo necesitéis.
-    </span>
-  </div>
-  <div class="btn-wrapper">
-    <button type="button" ion-button class="c-btn btn-haciendo" (click)="goPage('TestSintomasPage')">
-      <img alt="icono-que-estamos-haciendo" src="assets/imgs/icons/ayuda.png" />
-      <span translate>¿Qué estamos haciendo?</span>
-    </button>
-  </div>
-  <div class="usuario">
-    <div class="img-usuario-wrapper">
-      <img alt="icono-ayuda" src="assets/imgs/usuarios/ayuda_hombre.png" />
+    <div translate class="custom-container descripcion">
+        <span translate>
+            Desde el
+        </span>
+        <span class="destacado" translate>
+            Pacto por la Persona Mayor
+        </span>
+        <span translate>
+            y
+        </span>
+        <span class="destacado" translate>
+            Maratxa
+        </span>
+        <span translate>
+            estamos creando una red de
+        </span>
+        <span class="destacado" translate>
+            voluntari@s
+        </span>
+        <span translate>
+            para ayudar a las personas que lo necesitéis.
+        </span>
+        <div class="lnk-wrapper">
+            <a class="lnk-haciendo" (click)="goPage('TestSintomasPage')">
+                <img alt="icono-que-estamos-haciendo" src="assets/imgs/icons/ayuda.png" />
+                <span translate>¿Qué estamos haciendo?</span>
+            </a>
+        </div>
     </div>
-    <div class="btn-usuario-wrapper">
-      <button type="button" ion-button class="c-btn btn-usuario" (click)="goPage('TestSintomasPage')">
-        <span translate>Necesito ayuda</span>
-      </button>
+    <div class="usuario">
+        <div class="img-usuario-wrapper">
+            <img alt="icono-ayuda" src="assets/imgs/usuarios/ayuda_hombre.png" />
+        </div>
+        <div class="btn-usuario-wrapper">
+            <button type="button" ion-button class="c-btn btn-usuario" (click)="goPage('TestSintomasPage')">
+                <span translate>Necesito ayuda</span>
+            </button>
+        </div>
     </div>
-  </div>
-  <div class="usuario">
-    <div class="img-usuario-wrapper">
-      <img alt="icono-voluntaria" src="assets/imgs/usuarios/icono_voluntaria.png" />
+    <div class="usuario">
+        <div class="img-usuario-wrapper">
+            <img alt="icono-voluntaria" src="assets/imgs/usuarios/icono_voluntaria.png" />
+        </div>
+        <div class="btn-usuario-wrapper">
+            <button type="button" ion-button class="c-btn btn-usuario" (click)="goPage('TestSintomasPage')">
+                <span translate>Quiero ser voluntari@</span>
+            </button>
+        </div>
     </div>
-    <div class="btn-usuario-wrapper">
-      <button type="button" ion-button class="c-btn btn-usuario" (click)="goPage('TestSintomasPage')">
-        <span translate>Quiero ser voluntari@</span>
-      </button>
-    </div>
-  </div>
-  <footer></footer>
+    <footer></footer>
 </ion-content>

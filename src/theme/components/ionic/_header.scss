@@ -1,12 +1,13 @@
 ion-header {
     border-bottom: 0.1em solid $c-gris-oscuro;
+    background-color: lighten($c-naranja-muy-claro, 2%);
     &.header-md::after {
         content: none;
     }
 
     ion-navbar {
         .toolbar-background {
-            background-color: lighten($c-naranja-muy-claro, 2%);
+            //background-color: $c-blanco;
         }
     }
 

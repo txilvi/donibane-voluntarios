@@ -1,15 +1,12 @@
-.c-container {
-    max-width: 1280px;
+.custom-container {
+    max-width: 800px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
     font-family: $font-family-content;
-    @include respond-to('desktop') {
-        width: 1000px;
-    }
     @include respond-to('tablet') {
-        width: 700px;
+        width: 525px;
     }
     @include respond-to('mobile') {
         width: 100%;

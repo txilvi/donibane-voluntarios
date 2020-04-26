@@ -1,11 +1,14 @@
 home-page {
     .descripcion {
-        margin-top: 105px;
+        margin: 125px auto 0;
         padding: 20px;
         text-align: justify;
         font-family: 'Montserrat';
         font-size: 18px;
         @include respond-to("mobile") {
+            margin-top: 105px;
+            width: 100%;
+            font-size: 16px;
             padding: 15px;
         }
     }
@@ -13,45 +16,67 @@ home-page {
         color: $c-verde-oscuro;
         font-weight: 600;
     }
-    .btn-wrapper {
+    .lnk-wrapper {
         text-align: center;
+        margin-top: 15px;
         margin-bottom: 15px;
-        .btn-haciendo {
+        .lnk-haciendo {
             font-size: 20px;
+            font-weight: 600;
             padding: 10px;
             width: 90%;
-            border: none;
-            @include respond-to("mobile") {
-                font-size: 20px;
+            color: $c-verde-oscuro;
+            @include respond-to("mobile-mini") {
+                font-size: 17px;
             }
             img {
+                width: 70px;
                 margin-right: 20px;
+                vertical-align: middle;
                 @include respond-to("mobile") {
-                    margin-right: 5px;
+                    width: 50px;
+                    margin-right: 10px;
                 }
+                @include respond-to("mobile-mini") {
+                    width: 40px;
+                }
+            }
+            span {
+                text-decoration: underline;
             }
         }
     }
     .usuario {
         padding: 0 20px;
+        text-align: center;
+        margin-bottom: 20px;
         @include respond-to("mobile") {
             padding: 0 10px;
         }
         .img-usuario-wrapper {
             display: inline-block;
-            width: 25%;
+            width: 150px;
             vertical-align: middle;
+            @include respond-to("mobile") {
+                padding: 0 10px;
+                width: 25%;
+            }
         }
         .btn-usuario-wrapper {
             display: inline-block;
             margin-left: 15px;
-            width: 69%;
-            height: 100px;
+            width: 300px;
+            @include respond-to("mobile") {
+                width: 68%;
+            }
             .btn-usuario {
                 font-size: 20px;
                 width: 100%;
                 @include respond-to("mobile") {
                     font-size: 18px;
+                }
+                @include respond-to("mobile-mini") {
+                    font-size: 16px;
                 }
             }
         }

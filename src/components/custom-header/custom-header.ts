@@ -1,5 +1,7 @@
 import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 import { I18nService } from '@core/i18n/i18n.service';
+import { Subscription } from 'rxjs/Subscription';
+import { BreakpointProvider } from '@shared/providers/breakpoint.provider';
 
 @Component({
   selector: 'custom-header',
@@ -12,11 +14,18 @@ export class CustomHeaderComponent {
 
   nuevasSecciones: boolean;
   langSelected: string = 'es';
+  isXS: boolean = false;
+  private subscriptions: Subscription = new Subscription();
   
-  constructor(private i18nService: I18nService) { }
+  constructor(private i18nService: I18nService, private breakpointService: BreakpointProvider) { }
 
   ngOnInit() {
     this.langSelected = this.i18nService.getCurrentLanguage();
+    this.subscriptions.add(
+      this.breakpointService.isXS$.subscribe((isXS: boolean) => {
+        this.isXS = isXS;
+      })
+    );
   }
 
   changeLang(lang: string) {
