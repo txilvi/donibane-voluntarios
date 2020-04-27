@@ -5,9 +5,10 @@ import { CacheService } from 'ionic-cache';
 import { AppSettings } from '@app/app.constants';
 import { EnvProvider } from '@env/env.provider';
 import { CordovaProvider } from '@providers/cordova/cordova.provider';
-import { HomePage } from '@pages/home/home';
 import { HockeyApp } from 'ionic-hockeyapp';
 import { I18nService } from '@core/i18n/i18n.service';
+import { QueHacemosPage } from '@pages/que-hacemos/que-hacemos';
+import { HomePage } from '@pages/home/home';
 
 
 @Component({
@@ -20,7 +21,7 @@ export class SanJuanXarApp {
   rootPage: any = HomePage;
   srcLogo: string;
   pages: any[] = [
-    { component: HomePage , title: 'Inicio', icon: 'assets/imgs/icons/ayuda.png' }
+    { component: QueHacemosPage , title: '¿Qué estamos haciendo?', icon: 'assets/imgs/icons/ayuda.png' }
   ];
 
   constructor(
@@ -81,10 +82,7 @@ export class SanJuanXarApp {
   }
 
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
-
 
 }

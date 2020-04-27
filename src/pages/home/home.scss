@@ -30,15 +30,11 @@ home-page {
                 font-size: 17px;
             }
             img {
-                width: 70px;
-                margin-right: 20px;
+                width: 40px;
+                margin-right: 10px;
                 vertical-align: middle;
                 @include respond-to("mobile") {
-                    width: 50px;
                     margin-right: 10px;
-                }
-                @include respond-to("mobile-mini") {
-                    width: 40px;
                 }
             }
             span {

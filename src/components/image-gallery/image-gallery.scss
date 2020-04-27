@@ -1,0 +1,36 @@
+image-gallery {
+    .content-gallery {
+        height: 100%;
+        ion-slides .swiper-container {
+            height: 100%;
+            ion-slide.swiper-slide {
+                align-self: center;
+                max-height: 90px;
+                img {
+                    width: calc(100% - 10px);
+                    border: 1px solid $c-gris-oscuro;
+                }
+            }
+            .swiper-pagination {
+                bottom: -4px;
+            }
+        }
+        &--modal {
+            ion-slides .swiper-container {
+                background-color: $c-gris-suave;
+                ion-slide.swiper-slide {
+                    max-height: initial;
+                    img {
+                        border: none;
+                        padding: 100px 10px 170px 10px;
+                        height: 700px;
+                        width: auto;
+                    }
+                }
+                .swiper-pagination {
+                    bottom: 68px;
+                }
+            } 
+        }
+    }
+}

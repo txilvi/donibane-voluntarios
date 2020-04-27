@@ -1,0 +1,9 @@
+<div class="content-gallery" [ngClass]="{'content-gallery--modal': (slidesPerView == 1)}">
+    <ion-content>
+        <ion-slides class="image-slider" loop="false" slidesPerView="{{slidesPerView}}" pager="true">
+            <ion-slide *ngFor="let img of imagesNormalizadas">
+                <img [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.imagen" />
+            </ion-slide>
+        </ion-slides>
+    </ion-content>
+</div>

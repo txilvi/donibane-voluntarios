@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 import { Subscription } from 'rxjs/Subscription';
 
 import { Usuario } from '@providers/usuarios/usuarios.model';
@@ -21,7 +21,8 @@ export class HomePage {
   private subscriptions: Subscription = new Subscription();
 
   constructor(
-    private usuarioProvider: IUsuarioProvider
+    private usuarioProvider: IUsuarioProvider,
+    private navCtrl: NavController
   ) {}
 
   ngOnInit() {
@@ -42,6 +43,10 @@ export class HomePage {
             this.errorMessage = 'En este momento no se pueden recuperar las actividades.' + err;
           })
     );
+  }
+
+  goToQueHacemos(){
+    this.navCtrl.push('QueHacemosPage', null, {animate: false});
   }
 
 }

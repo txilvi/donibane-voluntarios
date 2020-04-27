@@ -33,6 +33,7 @@ import { ErroresProviderModule } from '@providers/errores/errores.provider.modul
 //Pages
 import { MapaActividadModule } from '@pages/mapa/mapa.module';
 import { HomeModule } from '@pages/home/home.module';
+import { QueHacemosModule } from '@pages/que-hacemos/que-hacemos.module';
 
 registerLocaleData(localeEs);
 registerLocaleData(localeEu);
@@ -57,6 +58,7 @@ registerLocaleData(localeEu);
     SharedModule.forRoot(),
     CoreModule,
     HomeModule,
+    QueHacemosModule,
     MapaActividadModule,
     ActividadesProviderModule,
     UsuarioProviderModule,

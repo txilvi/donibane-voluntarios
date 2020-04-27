@@ -17,16 +17,15 @@
 @import 'theme/index';
 
 ion-menu {
-  .scroll-content{
-    background: $c-amarillo-muy-claro;
-    ion-item {
-      background: $c-amarillo-muy-claro;
-    }
-  }
+  cursor: pointer;
   img {
     height: auto;
     width: 45px;
   }
+}
+
+ion-title {
+  background-color: lighten($c-naranja-muy-claro, 2%);
 }
 .menu-title {
     margin-left: 20px;
@@ -43,6 +42,7 @@ ion-menu {
         color: $c-negro;
         font-size: 20px;
         font-family: 'FoxInTheSnow';
+        font-weight: 600;
     }
 }
 
