@@ -39,19 +39,16 @@ export class FooterComponent implements OnInit {
   }
 
   goTwitter() {
-    window.open('https://twitter.com/salud_na', '_blank');
+    window.open('https://twitter.com/SAN_JUAN_XAR', '_blank');
   }
 
   goFacebook() {
-    window.open('https://es-la.facebook.com/SaludNavarra/', '_blank');
+    window.open('https://www.facebook.com/sanjuan.xar', '_blank');
   }
 
   goYoutube() {
-    window.open('https://www.youtube.com/SaludNavarra', '_blank');
+    window.open('https://www.youtube.com/channel/UCB1RCMLqPBkKPH-N-e1AkPg', '_blank');
   } 
-  goNavarra() {
-    window.open('https://www.navarra.es', '_blank');
-  }
 
   ngOnDestroy() {
     this.subscriptions.unsubscribe();
