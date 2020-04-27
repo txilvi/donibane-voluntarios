@@ -26971,8 +26971,8 @@ que-hacemos-page .lnk-wrapper {
   margin-bottom: 15px;
 }
 
-que-hacemos-page .lnk-wrapper .lnk-haciendo {
-  font-size: 20px;
+que-hacemos-page .lnk-wrapper .titulo-haciendo {
+  font-size: 28px;
   font-weight: 600;
   padding: 10px;
   width: 90%;
@@ -26980,25 +26980,21 @@ que-hacemos-page .lnk-wrapper .lnk-haciendo {
 }
 
 @media (max-width: 360px) {
-  que-hacemos-page .lnk-wrapper .lnk-haciendo {
+  que-hacemos-page .lnk-wrapper .titulo-haciendo {
     font-size: 17px;
   }
 }
 
-que-hacemos-page .lnk-wrapper .lnk-haciendo img {
+que-hacemos-page .lnk-wrapper .titulo-haciendo img {
   width: 40px;
   margin-right: 10px;
   vertical-align: middle;
 }
 
 @media (max-width: 700px) {
-  que-hacemos-page .lnk-wrapper .lnk-haciendo img {
+  que-hacemos-page .lnk-wrapper .titulo-haciendo img {
     margin-right: 10px;
   }
-}
-
-que-hacemos-page .lnk-wrapper .lnk-haciendo span {
-  text-decoration: underline;
 }
 
 que-hacemos-page .cuenta-usuarios {

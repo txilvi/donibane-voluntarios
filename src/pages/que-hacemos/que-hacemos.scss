@@ -20,8 +20,8 @@ que-hacemos-page {
         text-align: center;
         margin-top: 15px;
         margin-bottom: 15px;
-        .lnk-haciendo {
-            font-size: 20px;
+        .titulo-haciendo {
+            font-size: 28px;
             font-weight: 600;
             padding: 10px;
             width: 90%;
@@ -36,9 +36,6 @@ que-hacemos-page {
                 @include respond-to("mobile") {
                     margin-right: 10px;
                 }
-            }
-            span {
-                text-decoration: underline;
             }
         }
     }
