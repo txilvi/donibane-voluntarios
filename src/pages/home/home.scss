@@ -54,8 +54,7 @@ home-page {
             width: 150px;
             vertical-align: middle;
             @include respond-to("mobile") {
-                padding: 0 10px;
-                width: 25%;
+                width: 30%;
             }
         }
         .btn-usuario-wrapper {
@@ -63,7 +62,7 @@ home-page {
             margin-left: 15px;
             width: 300px;
             @include respond-to("mobile") {
-                width: 68%;
+                width: 64%;
             }
             .btn-usuario {
                 font-size: 20px;

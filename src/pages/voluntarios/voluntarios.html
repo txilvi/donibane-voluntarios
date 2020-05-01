@@ -1,0 +1,73 @@
+<custom-header [title]="title"></custom-header>
+<ion-content>
+    <div class="custom-container descripcion">
+        <div class="lnk-wrapper">
+            <div class="titulo-haciendo">
+                <img alt="icono-que-estamos-haciendo" src="assets/imgs/icons/ayuda.png" />
+                <span translate>¿Qué estamos haciendo?</span>
+            </div>
+        </div>
+        <p>
+            <span translate>
+                Desde el
+            </span>
+            <span class="destacado" translate>
+                Pacto por la Persona Mayor
+            </span>
+            <span translate>
+                y
+            </span>
+            <span class="destacado" translate>
+                Maratxa
+            </span>
+            <span translate>
+                queremos trasladar un mensaje de tranquilidad, responsabilidad y solidaridad.
+            </span>
+        </p>
+        <p>
+            <span translate>
+                Es un momento difícil, pero el COVID-19 puede sacar lo mejor de las personas y lo más auténtico de un barrio: </span>
+            <span class="destacado" translate>
+                solidaridad, participación y la implicación en construir entre tod@s un San Juan mejor.
+            </span>
+        </p>
+        <p>
+            <span translate>
+                Es por eso, que
+            </span>
+            <span class="destacado" translate>
+                estamos creando una red de voluntari@s
+            </span>
+            <span translate>
+                para ayudar a las personas que así lo necesitéis. Porque lo primero, son las personas.
+            </span>
+        </p>
+
+        <div class="cuenta-usuarios">
+            <div class="usuario">
+                <div class="img-usuario-wrapper">
+                    <img class="img-ayuda" alt="icono-ayuda" src="assets/imgs/usuarios/ayuda.png" />
+                </div>
+                <div class="numero">
+                    <div class="destacado" translate>Más de 100</div>
+                    <div class="destacado" translate>personas atendidas</div>
+                </div>
+            </div>
+            <div class="usuario">
+                <div class="img-usuario-wrapper">
+                    <img alt="icono-voluntaria" src="assets/imgs/usuarios/voluntarios.png" />
+                </div>
+                <div class="numero">
+                    <div class="destacado" translate>88</div>
+                    <div class="destacado" translate>voluntari@s</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <image-gallery [images]="imagenes"></image-gallery>
+            <div [hidden]="showSpinner || !imagenes" class="no-imagenes">...</div>
+        </div>
+    </div>
+    <footer></footer>
+</ion-content>

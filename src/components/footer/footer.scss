@@ -1,18 +1,18 @@
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    text-align: center;
     z-index: 10000000;
     width: 100%;
     background-color: $c-gris-muy-claro;
     border-top: 0.1em solid $c-gris;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     height: 100px;
+    padding:10px;
+
     @include respond-to("mobile") {
-      z-index: 1;
+        z-index: 1;
     }
+
     &--interior {
         @include respond-to("mobile") {
             position: static;
@@ -20,50 +20,34 @@
     }
 
     .logo {
-      margin-right: 20px;
-      height: 70px;
-      width: auto;
-      cursor: pointer;
-      @include respond-to("mobile") {
-        margin-right: 0px;
-      }
-      @include respond-to("mobile-mini3") {
-       height: 70px;
-      }
+        margin-right: 20px;
+        height: 60px;
+        width: auto;
+        cursor: pointer;
+
+        @include respond-to("mobile") {
+            margin-right: 0px;
+        }
+
+        @include respond-to("mobile-mini3") {
+            height: 50px;
+        }
+
+        @include respond-to("mobile-mini2") {
+            height: 50px;
+        }
     }
 
-    .right {
-      float: right;
-      @include respond-to("mobile") {
-        padding-top: 5px;
-      }
-      @include respond-to('mobile-mini3') {
-        height: auto;
-        font-size: 13px;
-      }
-      @include respond-to('mobile-mini2') {
-        height: auto;
-      }
-      .rrss {
-        display: inline-block;
-        @include respond-to('mobile-mini3') {
-          width: 100%;
-          margin-left: 0;
-          margin-top: 0;
-        }
+
+    .rrss {
+        text-align: center;
         ion-icon {
-          color: #333;
-          line-height: 65px;
-          font-size: 26px;
-          margin-right: 5px;
-          cursor: pointer;
-          @include respond-to('mobile') {
+            color: #333;
             line-height: 45px;
-          }
-          @include respond-to('mobile-mini3') {
-            line-height: 26px;
-          }
+            font-size: 22px;
+            margin-right: 5px;
+            cursor: pointer;
         }
-      }
     }
+
 }

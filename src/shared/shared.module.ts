@@ -1,7 +1,8 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, MissingTranslationHandler } from '@ngx-translate/core';
+import { MyMissingTranslationHandler } from '@core/i18n/i18n.missing.handler';
 import { NgTsSpinnerModule } from 'ng-ts-spinner';
 
 import { LimitToDirective } from './directives/limit-to.directive';
@@ -38,7 +39,10 @@ import { KeyboardProvider } from './providers/keyboard.provider';
 @NgModule({
   imports: [
     CommonModule,
-    TranslateModule,
+    TranslateModule.forRoot({
+      missingTranslationHandler: { provide: MissingTranslationHandler, useClass: MyMissingTranslationHandler },
+      useDefaultLang: false
+    }),
     NgTsSpinnerModule
   ],
   declarations: [

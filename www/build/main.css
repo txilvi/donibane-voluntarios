@@ -26580,26 +26580,16 @@ custom-header .header-block .idioma span.lang-selected {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  overflow: hidden;
+  text-align: center;
   z-index: 10000000;
   width: 100%;
   background-color: #F1F1F1;
   border-top: 0.1em solid #A4A4A4;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   bottom: 0;
   height: 100px;
+  padding: 10px;
 }
 
 @media (max-width: 700px) {
@@ -26616,7 +26606,7 @@ custom-header .header-block .idioma span.lang-selected {
 
 .footer .logo {
   margin-right: 20px;
-  height: 70px;
+  height: 60px;
   width: auto;
   cursor: pointer;
 }
@@ -26629,63 +26619,26 @@ custom-header .header-block .idioma span.lang-selected {
 
 @media (max-width: 465px) {
   .footer .logo {
-    height: 70px;
-  }
-}
-
-.footer .right {
-  float: right;
-}
-
-@media (max-width: 700px) {
-  .footer .right {
-    padding-top: 5px;
-  }
-}
-
-@media (max-width: 465px) {
-  .footer .right {
-    height: auto;
-    font-size: 13px;
+    height: 50px;
   }
 }
 
 @media (max-width: 400px) {
-  .footer .right {
-    height: auto;
+  .footer .logo {
+    height: 50px;
   }
 }
 
-.footer .right .rrss {
-  display: inline-block;
+.footer .rrss {
+  text-align: center;
 }
 
-@media (max-width: 465px) {
-  .footer .right .rrss {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 0;
-  }
-}
-
-.footer .right .rrss ion-icon {
+.footer .rrss ion-icon {
   color: #333;
-  line-height: 65px;
-  font-size: 26px;
+  line-height: 45px;
+  font-size: 22px;
   margin-right: 5px;
   cursor: pointer;
-}
-
-@media (max-width: 700px) {
-  .footer .right .rrss ion-icon {
-    line-height: 45px;
-  }
-}
-
-@media (max-width: 465px) {
-  .footer .right .rrss ion-icon {
-    line-height: 26px;
-  }
 }
 
 image-gallery .content-gallery {
@@ -26811,6 +26764,90 @@ mapa .map-infoWindow .map-button-llegar .map-pin:before {
   content: '\f34a';
 }
 
+ayuda-page .descripcion {
+  margin: 125px auto 0;
+  padding: 20px;
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  ayuda-page .descripcion {
+    margin-top: 105px;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+ayuda-page .destacado {
+  color: #065A38;
+  font-weight: 600;
+}
+
+ayuda-page .lnk-wrapper {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ayuda-page .lnk-wrapper .titulo-haciendo {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+  width: 90%;
+  color: #065A38;
+}
+
+@media (max-width: 360px) {
+  ayuda-page .lnk-wrapper .titulo-haciendo {
+    font-size: 17px;
+  }
+}
+
+ayuda-page .lnk-wrapper .titulo-haciendo img {
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  ayuda-page .lnk-wrapper .titulo-haciendo img {
+    margin-right: 10px;
+  }
+}
+
+ayuda-page .cuenta-usuarios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+ayuda-page .usuario {
+  text-align: center;
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  ayuda-page .usuario {
+    padding: 0 10px;
+  }
+}
+
+ayuda-page .usuario img {
+  width: 120px;
+}
+
+ayuda-page .usuario .numero {
+  margin-top: -20px;
+}
+
 home-page .descripcion {
   margin: 125px auto 0;
   padding: 20px;
@@ -26889,8 +26926,7 @@ home-page .usuario .img-usuario-wrapper {
 
 @media (max-width: 700px) {
   home-page .usuario .img-usuario-wrapper {
-    padding: 0 10px;
-    width: 25%;
+    width: 30%;
   }
 }
 
@@ -26902,7 +26938,7 @@ home-page .usuario .btn-usuario-wrapper {
 
 @media (max-width: 700px) {
   home-page .usuario .btn-usuario-wrapper {
-    width: 68%;
+    width: 64%;
   }
 }
 
@@ -26967,16 +27003,20 @@ que-hacemos-page .destacado {
 
 que-hacemos-page .lnk-wrapper {
   text-align: center;
-  margin-top: 15px;
   margin-bottom: 15px;
 }
 
 que-hacemos-page .lnk-wrapper .titulo-haciendo {
   font-size: 28px;
   font-weight: 600;
-  padding: 10px;
   width: 90%;
   color: #065A38;
+}
+
+@media (max-width: 700px) {
+  que-hacemos-page .lnk-wrapper .titulo-haciendo {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -27024,5 +27064,89 @@ que-hacemos-page .usuario img {
 }
 
 que-hacemos-page .usuario .numero {
+  margin-top: -20px;
+}
+
+voluntarios-page .descripcion {
+  margin: 125px auto 0;
+  padding: 20px;
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  voluntarios-page .descripcion {
+    margin-top: 105px;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+voluntarios-page .destacado {
+  color: #065A38;
+  font-weight: 600;
+}
+
+voluntarios-page .lnk-wrapper {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+voluntarios-page .lnk-wrapper .titulo-haciendo {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+  width: 90%;
+  color: #065A38;
+}
+
+@media (max-width: 360px) {
+  voluntarios-page .lnk-wrapper .titulo-haciendo {
+    font-size: 17px;
+  }
+}
+
+voluntarios-page .lnk-wrapper .titulo-haciendo img {
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  voluntarios-page .lnk-wrapper .titulo-haciendo img {
+    margin-right: 10px;
+  }
+}
+
+voluntarios-page .cuenta-usuarios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+voluntarios-page .usuario {
+  text-align: center;
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  voluntarios-page .usuario {
+    padding: 0 10px;
+  }
+}
+
+voluntarios-page .usuario img {
+  width: 120px;
+}
+
+voluntarios-page .usuario .numero {
   margin-top: -20px;
 }

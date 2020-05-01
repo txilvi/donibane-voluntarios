@@ -34,6 +34,8 @@ import { ErroresProviderModule } from '@providers/errores/errores.provider.modul
 import { MapaActividadModule } from '@pages/mapa/mapa.module';
 import { HomeModule } from '@pages/home/home.module';
 import { QueHacemosModule } from '@pages/que-hacemos/que-hacemos.module';
+import { VoluntariosModule } from '@pages/voluntarios/voluntarios.module';
+import { AyudaModule } from '@pages/ayuda/ayuda.module';
 
 registerLocaleData(localeEs);
 registerLocaleData(localeEu);
@@ -59,6 +61,8 @@ registerLocaleData(localeEu);
     CoreModule,
     HomeModule,
     QueHacemosModule,
+    AyudaModule,
+    VoluntariosModule,
     MapaActividadModule,
     ActividadesProviderModule,
     UsuarioProviderModule,
