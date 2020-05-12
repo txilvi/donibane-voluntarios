@@ -25,9 +25,9 @@ import { registerLocaleData } from '@angular/common';
 import { GeoLocalizacionProviderModule } from '@providers/geolocalizacion/geolocalizacion.provider.module';
 import { UsuarioProviderModule } from '@providers/usuarios/usuarios.provider.module';
 import { CordovaProviderModule } from '@providers/cordova/cordova.provider.module';
-import { ActividadesProviderModule } from '@providers/actividades/actividades.provider.module';
 import { ExcursionesProviderModule } from '@providers/excursiones/excursiones.provider.module';
 import { ErroresProviderModule } from '@providers/errores/errores.provider.module';
+import { CorreosProviderModule } from '@providers/correos/correos.provider.module';
 
 
 //Pages
@@ -36,6 +36,7 @@ import { HomeModule } from '@pages/home/home.module';
 import { QueHacemosModule } from '@pages/que-hacemos/que-hacemos.module';
 import { VoluntariosModule } from '@pages/voluntarios/voluntarios.module';
 import { AyudaModule } from '@pages/ayuda/ayuda.module';
+import { ContactoModule } from '@pages/contacto/contacto.module';
 
 registerLocaleData(localeEs);
 registerLocaleData(localeEu);
@@ -63,8 +64,9 @@ registerLocaleData(localeEu);
     QueHacemosModule,
     AyudaModule,
     VoluntariosModule,
+    ContactoModule,
     MapaActividadModule,
-    ActividadesProviderModule,
+    CorreosProviderModule,
     UsuarioProviderModule,
     ExcursionesProviderModule,
     GeoLocalizacionProviderModule,

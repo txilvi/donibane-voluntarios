@@ -4,19 +4,12 @@
     width: 100%;
     background-color: $c-gris-muy-claro;
     border-top: 0.1em solid $c-gris;
-    position: sticky;
+    position: static;
     bottom: 0;
     height: 100px;
-    padding:10px;
 
     @include respond-to("mobile") {
         z-index: 1;
-    }
-
-    &--interior {
-        @include respond-to("mobile") {
-            position: static;
-        }
     }
 
     .logo {
@@ -40,6 +33,7 @@
 
 
     .rrss {
+        margin-top: -10px;
         text-align: center;
         ion-icon {
             color: #333;

@@ -1,12 +1,11 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
-import { IonicPage, NavParams } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 
 import { Excursion } from '@providers/excursiones/excursiones.model';
 import { IExcursionesProvider } from '@providers/excursiones/excursiones.provider.interface';
 import { IGeoProvider } from '@providers/geolocalizacion/geo.provider.interface';
 import { Localizacion } from '@providers/geolocalizacion/geolocalizacion.model';
-import { Actividad, ActividadRealizada } from '@providers/actividades/actividades.model';
 
 @IonicPage()
 @Component({
@@ -15,8 +14,6 @@ import { Actividad, ActividadRealizada } from '@providers/actividades/actividade
 })
 export class MapaPage implements OnInit, OnDestroy {
   
-  actividad: Actividad;
-  actividadesRealizadas: ActividadRealizada[];
   puntosTotales: number;
   excursiones: Excursion[];
   errorMessage: string;
@@ -24,14 +21,11 @@ export class MapaPage implements OnInit, OnDestroy {
   private subscriptions: Subscription = new Subscription();
 
   constructor(
-    private navParams: NavParams,
     private excursionesProvider: IExcursionesProvider,
     private geoProvider: IGeoProvider
   ) {}
 
   ngOnInit() {
-    this.actividad = this.navParams.get('actividad');
-    this.actividadesRealizadas = this.navParams.get('actividadesRealizadas');
     this.cargaDatos();
   }
 

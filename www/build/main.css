@@ -26585,22 +26585,14 @@ custom-header .header-block .idioma span.lang-selected {
   width: 100%;
   background-color: #F1F1F1;
   border-top: 0.1em solid #A4A4A4;
-  position: -webkit-sticky;
-  position: sticky;
+  position: static;
   bottom: 0;
   height: 100px;
-  padding: 10px;
 }
 
 @media (max-width: 700px) {
   .footer {
     z-index: 1;
-  }
-}
-
-@media (max-width: 700px) {
-  .footer--interior {
-    position: static;
   }
 }
 
@@ -26630,6 +26622,7 @@ custom-header .header-block .idioma span.lang-selected {
 }
 
 .footer .rrss {
+  margin-top: -10px;
   text-align: center;
 }
 
@@ -26781,11 +26774,6 @@ ayuda-page .descripcion {
   }
 }
 
-ayuda-page .destacado {
-  color: #065A38;
-  font-weight: 600;
-}
-
 ayuda-page .lnk-wrapper {
   text-align: center;
   margin-top: 15px;
@@ -26807,7 +26795,7 @@ ayuda-page .lnk-wrapper .titulo-haciendo {
 }
 
 ayuda-page .lnk-wrapper .titulo-haciendo img {
-  width: 40px;
+  width: 80px;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -26848,6 +26836,90 @@ ayuda-page .usuario .numero {
   margin-top: -20px;
 }
 
+contacto-page .descripcion {
+  margin: 125px auto 0;
+  padding: 20px;
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+@media (max-width: 700px) {
+  contacto-page .descripcion {
+    margin-top: 105px;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+contacto-page .destacado {
+  color: #065A38;
+  font-weight: 600;
+}
+
+contacto-page .lnk-wrapper {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+contacto-page .lnk-wrapper .titulo-haciendo {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+  width: 90%;
+  color: #065A38;
+}
+
+@media (max-width: 360px) {
+  contacto-page .lnk-wrapper .titulo-haciendo {
+    font-size: 17px;
+  }
+}
+
+contacto-page .lnk-wrapper .titulo-haciendo img {
+  width: 80px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  contacto-page .lnk-wrapper .titulo-haciendo img {
+    margin-right: 10px;
+  }
+}
+
+contacto-page .cuenta-usuarios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+contacto-page .usuario {
+  text-align: center;
+  width: 50%;
+}
+
+@media (max-width: 700px) {
+  contacto-page .usuario {
+    padding: 0 10px;
+  }
+}
+
+contacto-page .usuario img {
+  width: 120px;
+}
+
+contacto-page .usuario .numero {
+  margin-top: -20px;
+}
+
 home-page .descripcion {
   margin: 125px auto 0;
   padding: 20px;
@@ -26877,6 +26949,7 @@ home-page .lnk-wrapper {
 }
 
 home-page .lnk-wrapper .lnk-haciendo {
+  cursor: pointer;
   font-size: 20px;
   font-weight: 600;
   padding: 10px;

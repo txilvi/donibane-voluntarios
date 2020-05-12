@@ -34,10 +34,16 @@ export class HttpAuthInterceptor implements HttpServiceInterceptor {
       });
     }
     else {
-      let apiUrl = this.envProvider.getApiUrl();
-      newReq = req.clone({
-        url: apiUrl + req.url
-      });
+      let apiUrl = req.url;
+      if (!req.urlWithParams.startsWith('https')) {
+       apiUrl = this.envProvider.getApiUrl();
+        newReq = req.clone({
+          url: apiUrl + req.url
+        });
+      }
+      else {
+        newReq = req;
+      }
     }
     return newReq;
   }

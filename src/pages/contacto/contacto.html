@@ -1,0 +1,56 @@
+<custom-header [title]="title"></custom-header>
+<ion-content>
+    <div class="custom-container descripcion">
+        <div class="lnk-wrapper">
+            <div class="titulo-haciendo">
+                <img alt="icono-que-estamos-haciendo" src="assets/imgs/usuarios/ayuda.png" />
+                <span translate>Contacta con nosotros</span>
+            </div>
+        </div>
+
+        <form class="ca__formulario" [formGroup]="formContacto" novalidate>
+            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
+                <ion-label stacked translate>Tu nombre *</ion-label>
+                <ion-input type="text" autofocus="autofocus" formControlName="nombre" value="" required>
+                </ion-input>
+            </ion-item>
+            <div *ngIf="(formContacto.get('nombre').dirty || formContacto.get('nombre').dirty)">
+                <div class="error" *ngIf="formContacto.controls['nombre'].hasError('required')" translate>
+                    Por favor, introduce tu nombre
+                </div>
+            </div>
+            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
+                <ion-label stacked translate>Tu teléfono *</ion-label>
+                <ion-input class="telefono" #telefonoInput
+                    type="text" formControlName="telefono"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="9" value=""
+                    required></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label stacked translate>Tu e-mail (opcional)</ion-label>
+                <ion-input type="email" formControlName="email"></ion-input>
+            </ion-item>
+            <div *ngIf="(formContacto.get('email').dirty || formContacto.get('email').dirty)">
+                <div class="error" *ngIf="formContacto.controls['email'].hasError('emailCustom')" translate>
+                    Introduce un email correcto
+                </div>
+            </div>
+
+            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
+                <ion-label stacked translate>Cuéntanos que necesitas</ion-label>
+                <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" value="">
+                </ion-input>
+            </ion-item>
+            <p class="ca__leyenda">
+                <em translate>* Campos obligatorios</em>
+            </p>
+
+            <button type="button" ion-button class="ca__btn-enviar c-btn"
+                (click)="enviar()" [disabled]="!formContacto.valid">
+                <span translate>Enviar</span>
+            </button>
+        </form>
+    </div>
+    <footer></footer>
+</ion-content>

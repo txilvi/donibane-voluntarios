@@ -45,9 +45,9 @@ export class HomePage {
     );
   }
 
-  goToQueHacemos(){
-    this.navCtrl.push('QueHacemosPage', null, {animate: false});
-  }
 
+  goPage(page: string, options?: any) {
+    this.navCtrl.push(page, options, {animate: false});
+  }
 }
 
