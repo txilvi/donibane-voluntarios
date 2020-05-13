@@ -18,7 +18,7 @@ export class CorreosProvider extends ICorreosProvider {
 
 
   mandarCorreo(correo: Correo): Observable<boolean> {
-    const url = 'https://uhnoncd7cg.execute-api.eu-west-2.amazonaws.com';
+    const url = 'https://772bxqhxu9.execute-api.eu-west-2.amazonaws.com/';
     return this.http
       .config()
       .post<boolean>(url, JSON.stringify(correo));

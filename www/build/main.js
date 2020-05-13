@@ -4394,6 +4394,7 @@ var HttpAuthInterceptor = /** @class */ (function () {
             req = req.clone({ headers: req.headers.set('Content-Type', 'application/json') });
         }
         req = req.clone({ headers: req.headers.set('Accept', 'application/json, */*') });
+        req = req.clone({ headers: req.headers.set('Access-Control-Allow-Origin', 'http://localhost:8100') });
         return req;
     };
     HttpAuthInterceptor.prototype.addAPIBasePath = function (req, metadata) {
@@ -5865,16 +5866,17 @@ var CorreosProvider = /** @class */ (function (_super) {
         return _this;
     }
     CorreosProvider.prototype.mandarCorreo = function (correo) {
-        var url = 'https://uhnoncd7cg.execute-api.eu-west-2.amazonaws.com';
+        var url = 'https://772bxqhxu9.execute-api.eu-west-2.amazonaws.com/';
         return this.http
             .config()
             .post(url, JSON.stringify(correo));
     };
     CorreosProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common_http__["a" /* HttpClient */]) === "function" && _a || Object])
     ], CorreosProvider);
     return CorreosProvider;
+    var _a;
 }(__WEBPACK_IMPORTED_MODULE_2__correos_provider_interface__["a" /* ICorreosProvider */]));
 
 //# sourceMappingURL=correos.provider.js.map
@@ -5919,16 +5921,17 @@ var CorreosProviderFake = /** @class */ (function (_super) {
         return _this;
     }
     CorreosProviderFake.prototype.mandarCorreo = function (correo) {
-        var url = 'https://uhnoncd7cg.execute-api.eu-west-2.amazonaws.com';
+        var url = 'https://772bxqhxu9.execute-api.eu-west-2.amazonaws.com/';
         return this.http
             .config()
             .post(url, JSON.stringify(correo));
     };
     CorreosProviderFake = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]) === "function" && _a || Object])
     ], CorreosProviderFake);
     return CorreosProviderFake;
+    var _a;
 }(__WEBPACK_IMPORTED_MODULE_1__correos_provider_interface__["a" /* ICorreosProvider */]));
 
 //# sourceMappingURL=correos.provider.fake.js.map
