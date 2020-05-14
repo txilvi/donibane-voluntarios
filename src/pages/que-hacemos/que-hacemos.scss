@@ -1,15 +1,15 @@
 que-hacemos-page {
+    .scroll-content {
+        padding-bottom: 65px;
+    }
+
     .descripcion {
-        margin: 125px auto 0;
-        padding: 20px;
         text-align: justify;
         font-family: 'Montserrat';
         font-size: 18px;
         @include respond-to("mobile") {
-            margin-top: 105px;
             width: 100%;
             font-size: 16px;
-            padding: 15px;
         }
     }
     .destacado {
@@ -56,5 +56,19 @@ que-hacemos-page {
        .numero {
            margin-top: -20px;
        }
+    }
+    .lnk-gallery {
+        margin-top:20px;
+        text-align: center;
+        span {
+            margin-left:10px;
+            color: $c-verde-oscuro;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        img {
+            width:50px;
+            vertical-align: middle;
+        }
     }
 }

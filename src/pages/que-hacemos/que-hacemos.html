@@ -1,6 +1,6 @@
 <custom-header [title]="title"></custom-header>
 <ion-content>
-    <div class="custom-container descripcion">
+    <div class="custom-container descripcion scoll-content">
         <div class="lnk-wrapper">
             <div class="titulo-haciendo">
                 <img alt="icono-que-estamos-haciendo" src="assets/imgs/icons/ayuda.png" />
@@ -64,10 +64,13 @@
             </div>
         </div>
 
-        <div class="gallery">
-            <image-gallery [images]="imagenes"></image-gallery>
-            <div [hidden]="showSpinner || !imagenes" class="no-imagenes">...</div>
+        <div class="lnk-gallery">
+            <a class="lnk-haciendo" (click)="goPage('GaleriaPage')">
+                <img alt="icono-galeria" src="assets/imgs/icons/galeria.png" />
+                <span translate>Ver imágenes</span>
+            </a>
         </div>
     </div>
-    <footer></footer>
 </ion-content>
+
+<footer></footer>

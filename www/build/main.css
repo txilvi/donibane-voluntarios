@@ -25982,6 +25982,98 @@ h2, .h2 {
 @import 'content';
 @import 'buttons';
 */
+body {
+  font-family: 'showcase' !important;
+}
+
+.content-md {
+  background: #fff;
+}
+
+.content-md .scroll-content {
+  margin-top: 130px;
+  margin-bottom: 65px !important;
+  padding-bottom: 65px !important;
+}
+
+@media (max-width: 700px) {
+  .content-md .scroll-content {
+    margin-top: calc(120px + env(safe-area-inset-top));
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+.heading {
+  padding: 15px 10px;
+  margin-bottom: 1px;
+  background: #fff;
+  border-top: 1px solid #c8a7d2;
+  border-bottom: 1px solid #c8a7d2;
+}
+
+.heading .heading-icon {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin-right: 14px;
+  background-color: #DEDEDE;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.heading .heading-icon ion-icon {
+  margin: auto;
+  vertical-align: middle;
+  padding-top: 6px;
+  color: #653B72;
+  color: #653B72;
+  text-align: center;
+  font-size: 25px;
+}
+
+.heading .heading-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.heading .heading-title--centered {
+  top: 10px;
+}
+
+.heading .heading-subtitle {
+  margin-top: -10px;
+  margin-left: 60px;
+  font-size: 13px;
+}
+
+.secondary-heading {
+  color: #653B72;
+  font-weight: bold;
+}
+
+.bloque {
+  margin-bottom: 25px;
+}
+
+.bloque--con-mapa {
+  height: 100%;
+}
+
+.bloque .texto {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.error {
+  padding: 20px;
+  color: #BE363A;
+  font-weight: 500;
+}
+
 ion-list {
   /*ion-label {
         font-size: 15px;
@@ -26053,10 +26145,7 @@ ion-input input.text-input-md {
   font-size: 16px;
   margin: 0 !important;
   padding: 14px 12px;
-  width: auto !important;
   min-width: 230px;
-  border-radius: 4px;
-  border: 1px solid black;
 }
 
 ion-input .button-md:hover:not(.disable-hover) {
@@ -26224,6 +26313,10 @@ ion-select.select-md {
   border-radius: 4px;
   width: 300px;
   min-width: 300px;
+}
+
+image-viewer .header {
+  background: #065A38;
 }
 
 .c-btn {
@@ -26581,19 +26674,14 @@ custom-header .header-block .idioma span.lang-selected {
 
 .footer {
   text-align: center;
-  z-index: 10000000;
   width: 100%;
   background-color: #F1F1F1;
   border-top: 0.1em solid #A4A4A4;
-  position: static;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
   bottom: 0;
   height: 100px;
-}
-
-@media (max-width: 700px) {
-  .footer {
-    z-index: 1;
-  }
 }
 
 .footer .logo {
@@ -26622,7 +26710,6 @@ custom-header .header-block .idioma span.lang-selected {
 }
 
 .footer .rrss {
-  margin-top: -10px;
   text-align: center;
 }
 
@@ -26635,7 +26722,7 @@ custom-header .header-block .idioma span.lang-selected {
 }
 
 image-gallery .content-gallery {
-  height: 100%;
+  height: 240px;
 }
 
 image-gallery .content-gallery ion-slides .swiper-container {
@@ -26652,10 +26739,6 @@ image-gallery .content-gallery ion-slides .swiper-container ion-slide.swiper-sli
 image-gallery .content-gallery ion-slides .swiper-container ion-slide.swiper-slide img {
   width: calc(100% - 10px);
   border: 1px solid #808080;
-}
-
-image-gallery .content-gallery ion-slides .swiper-container .swiper-pagination {
-  bottom: -4px;
 }
 
 image-gallery .content-gallery--modal ion-slides .swiper-container {
@@ -26758,8 +26841,6 @@ mapa .map-infoWindow .map-button-llegar .map-pin:before {
 }
 
 ayuda-page .descripcion {
-  margin: 125px auto 0;
-  padding: 20px;
   text-align: justify;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -26767,10 +26848,8 @@ ayuda-page .descripcion {
 
 @media (max-width: 700px) {
   ayuda-page .descripcion {
-    margin-top: 105px;
     width: 100%;
     font-size: 16px;
-    padding: 15px;
   }
 }
 
@@ -26781,7 +26860,7 @@ ayuda-page .lnk-wrapper {
 }
 
 ayuda-page .lnk-wrapper .titulo-haciendo {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   padding: 10px;
   width: 90%;
@@ -26865,7 +26944,7 @@ contacto-page .lnk-wrapper {
 }
 
 contacto-page .lnk-wrapper .titulo-haciendo {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 600;
   padding: 10px;
   width: 90%;
@@ -26920,9 +26999,47 @@ contacto-page .usuario .numero {
   margin-top: -20px;
 }
 
+galeria-page .lnk-wrapper {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+galeria-page .lnk-wrapper .titulo-haciendo {
+  font-size: 28px;
+  font-weight: 600;
+  width: 90%;
+  color: #065A38;
+}
+
+@media (max-width: 700px) {
+  galeria-page .lnk-wrapper .titulo-haciendo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  galeria-page .lnk-wrapper .titulo-haciendo {
+    font-size: 17px;
+  }
+}
+
+galeria-page .lnk-wrapper .titulo-haciendo img {
+  width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (max-width: 700px) {
+  galeria-page .lnk-wrapper .titulo-haciendo img {
+    margin-right: 10px;
+  }
+}
+
+galeria-page .gallery {
+  min-height: 150px;
+}
+
 home-page .descripcion {
-  margin: 125px auto 0;
-  padding: 20px;
   text-align: justify;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -26930,10 +27047,8 @@ home-page .descripcion {
 
 @media (max-width: 700px) {
   home-page .descripcion {
-    margin-top: 105px;
     width: 100%;
     font-size: 16px;
-    padding: 15px;
   }
 }
 
@@ -27052,9 +27167,11 @@ mapa-page .descripcion {
   font-size: 34px;
 }
 
+que-hacemos-page .scroll-content {
+  padding-bottom: 65px;
+}
+
 que-hacemos-page .descripcion {
-  margin: 125px auto 0;
-  padding: 20px;
   text-align: justify;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -27062,10 +27179,8 @@ que-hacemos-page .descripcion {
 
 @media (max-width: 700px) {
   que-hacemos-page .descripcion {
-    margin-top: 105px;
     width: 100%;
     font-size: 16px;
-    padding: 15px;
   }
 }
 
@@ -27140,9 +27255,24 @@ que-hacemos-page .usuario .numero {
   margin-top: -20px;
 }
 
+que-hacemos-page .lnk-gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+que-hacemos-page .lnk-gallery span {
+  margin-left: 10px;
+  color: #065A38;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+que-hacemos-page .lnk-gallery img {
+  width: 50px;
+  vertical-align: middle;
+}
+
 voluntarios-page .descripcion {
-  margin: 125px auto 0;
-  padding: 20px;
   text-align: justify;
   font-family: 'Montserrat';
   font-size: 18px;
@@ -27150,16 +27280,9 @@ voluntarios-page .descripcion {
 
 @media (max-width: 700px) {
   voluntarios-page .descripcion {
-    margin-top: 105px;
     width: 100%;
     font-size: 16px;
-    padding: 15px;
   }
-}
-
-voluntarios-page .destacado {
-  color: #065A38;
-  font-weight: 600;
 }
 
 voluntarios-page .lnk-wrapper {
@@ -27183,7 +27306,7 @@ voluntarios-page .lnk-wrapper .titulo-haciendo {
 }
 
 voluntarios-page .lnk-wrapper .titulo-haciendo img {
-  width: 40px;
+  width: 80px;
   margin-right: 10px;
   vertical-align: middle;
 }

@@ -30,7 +30,7 @@ export class ImageGalleryComponent {
       this.imagesNormalizadas.forEach(img => {
         let thumbnails = this.images.filter(i => i.tipo == eTipoImagen.Thumbnail && i.id == img.id);
         if (thumbnails && thumbnails.length > 0) {
-          img.thumbnail = thumbnails[0].imagen;
+          img.thumbnail = thumbnails[0].ruta;
         }
       });
     }

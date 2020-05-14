@@ -1,16 +1,13 @@
 .footer {
     text-align: center;
-    z-index: 10000000;
     width: 100%;
     background-color: $c-gris-muy-claro;
     border-top: 0.1em solid $c-gris;
-    position: static;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
     bottom: 0;
     height: 100px;
-
-    @include respond-to("mobile") {
-        z-index: 1;
-    }
 
     .logo {
         margin-right: 20px;
@@ -33,7 +30,6 @@
 
 
     .rrss {
-        margin-top: -10px;
         text-align: center;
         ion-icon {
             color: #333;

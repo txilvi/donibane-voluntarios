@@ -3,7 +3,8 @@
     <div class="custom-container descripcion">
         <div class="lnk-wrapper">
             <div class="titulo-haciendo">
-                <img alt="icono-que-estamos-haciendo" src="assets/imgs/usuarios/ayuda.png" />
+                <img *ngIf="esFormularioAyuda" alt="icono-ayuda" src="assets/imgs/usuarios/ayuda.png" />
+                <img *ngIf="!esFormularioAyuda" alt="icono-voluntario" src="assets/imgs/usuarios/voluntarios.png" />
                 <span translate>Contacta con nosotros</span>
             </div>
         </div>
@@ -37,7 +38,7 @@
                 </div>
             </div>
 
-            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
+            <ion-item *ngIf="esFormularioAyuda" [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
                 <ion-label stacked translate>Cuéntanos que necesitas</ion-label>
                 <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" value="">
                 </ion-input>

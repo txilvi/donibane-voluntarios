@@ -1,0 +1,29 @@
+galeria-page { 
+    .lnk-wrapper {
+        text-align: center;
+        margin-bottom: 15px;
+        .titulo-haciendo {
+            font-size: 28px;
+            font-weight: 600;
+            width: 90%;
+            color: $c-verde-oscuro;
+            @include respond-to("mobile") {
+                font-size: 20px;
+            }
+            @include respond-to("mobile-mini") {
+                font-size: 17px;
+            }
+            img {
+                width: 40px;
+                margin-right: 10px;
+                vertical-align: middle;
+                @include respond-to("mobile") {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .gallery {
+        min-height: 150px;
+    }
+}

@@ -37,6 +37,7 @@ import { QueHacemosModule } from '@pages/que-hacemos/que-hacemos.module';
 import { VoluntariosModule } from '@pages/voluntarios/voluntarios.module';
 import { AyudaModule } from '@pages/ayuda/ayuda.module';
 import { ContactoModule } from '@pages/contacto/contacto.module';
+import { GaleriaModule } from '@pages/galeria/galeria.module';
 
 registerLocaleData(localeEs);
 registerLocaleData(localeEu);
@@ -65,6 +66,7 @@ registerLocaleData(localeEu);
     AyudaModule,
     VoluntariosModule,
     ContactoModule,
+    GaleriaModule,
     MapaActividadModule,
     CorreosProviderModule,
     UsuarioProviderModule,

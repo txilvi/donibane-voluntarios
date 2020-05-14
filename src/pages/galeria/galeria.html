@@ -1,0 +1,16 @@
+<custom-header [title]="title"></custom-header>
+<ion-content>
+    <div class="custom-container descripcion">
+        <div class="lnk-wrapper">
+            <div class="titulo-haciendo">
+                <img alt="icono-que-estamos-haciendo" src="assets/imgs/icons/galeria.png" />
+                <span translate>Imágenes</span>
+            </div>
+        </div>
+        <div *ngIf="imagenes" class="gallery">
+            <image-gallery [images]="imagenes"></image-gallery>
+            <div [hidden]="imagenes" class="no-imagenes">...</div>
+        </div>
+    </div>
+    <footer></footer>
+</ion-content>

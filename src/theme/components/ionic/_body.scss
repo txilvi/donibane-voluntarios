@@ -2,13 +2,13 @@ body {
     font-family: 'showcase' !important;
 }
 .content-md {
-    background: $c-gris-muy-claro;
+    background: $c-blanco;
     .scroll-content {
-        margin-top: 110px;
+        margin-top: 130px;
         margin-bottom: 65px !important;
         padding-bottom: 65px !important;
         @include respond-to('mobile') {
-            margin-top: calc(30px + env(safe-area-inset-top));
+            margin-top: calc(120px + env(safe-area-inset-top));
             margin-bottom: 0 !important;
             padding-bottom: 0 !important;
         }

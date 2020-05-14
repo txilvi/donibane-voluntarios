@@ -5,7 +5,7 @@ export enum eTipoImagen {
 
 export class Imagen {
     id: number;
-    imagen: string;
+    ruta: string;
     tipo: eTipoImagen;
     thumbnail: string; 
 }

@@ -2,7 +2,7 @@
     <ion-content>
         <ion-slides class="image-slider" loop="false" slidesPerView="{{slidesPerView}}" pager="true">
             <ion-slide *ngFor="let img of imagesNormalizadas">
-                <img [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.imagen" />
+                <img [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.ruta" />
             </ion-slide>
         </ion-slides>
     </ion-content>

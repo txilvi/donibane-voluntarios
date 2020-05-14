@@ -1,9 +1,9 @@
 export class Correo {
   constructor(
-    public nombre: string, 
-    public telefono: number, 
-    public email: string, 
-    public quenecesitas: string)
+    public nombre: string = null, 
+    public telefono: number = null, 
+    public email: string = null, 
+    public quenecesitas: string = null)
   {
   }
 }

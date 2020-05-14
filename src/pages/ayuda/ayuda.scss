@@ -1,15 +1,11 @@
 ayuda-page {
     .descripcion {
-        margin: 125px auto 0;
-        padding: 20px;
         text-align: justify;
         font-family: 'Montserrat';
         font-size: 18px;
         @include respond-to("mobile") {
-            margin-top: 105px;
             width: 100%;
             font-size: 16px;
-            padding: 15px;
         }
     }
     .lnk-wrapper {
@@ -17,7 +13,7 @@ ayuda-page {
         margin-top: 15px;
         margin-bottom: 15px;
         .titulo-haciendo {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 600;
             padding: 10px;
             width: 90%;

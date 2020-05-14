@@ -9,6 +9,8 @@ import { HockeyApp } from 'ionic-hockeyapp';
 import { I18nService } from '@core/i18n/i18n.service';
 import { QueHacemosPage } from '@pages/que-hacemos/que-hacemos';
 import { HomePage } from '@pages/home/home';
+import { AyudaPage } from '@pages/ayuda/ayuda';
+import { VoluntariosPage } from '@pages/voluntarios/voluntarios';
 
 
 @Component({
@@ -21,7 +23,9 @@ export class SanJuanXarApp {
   rootPage: any = HomePage;
   srcLogo: string;
   pages: any[] = [
-    { component: QueHacemosPage , title: '¿Qué estamos haciendo?', icon: 'assets/imgs/icons/ayuda.png' }
+    { component: QueHacemosPage , title: '¿Qué estamos haciendo?', icon: 'assets/imgs/icons/ayuda.png' },
+    { component: AyudaPage , title: 'Necesito ayuda', icon: 'assets/imgs/usuarios/ayuda.png' },
+    { component: VoluntariosPage , title: 'Quiero ser voluntari@', icon: 'assets/imgs/usuarios/voluntarios.png' }
   ];
 
   constructor(

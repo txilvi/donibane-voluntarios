@@ -27,8 +27,10 @@ export class AyudaPage {
 
 
 
-  goPage(page: string, options?: any) {
-    this.navCtrl.push(page, options, {animate: false});
+  goPage(page: string) {
+    this.navCtrl.push(page,  {
+      'esFormularioAyuda': true
+    },  {animate: false});
   }
 }
 
