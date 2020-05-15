@@ -5,10 +5,8 @@ body {
     background: $c-blanco;
     .scroll-content {
         margin-top: 130px;
-        margin-bottom: 65px !important;
-        padding-bottom: 65px !important;
         @include respond-to('mobile') {
-            margin-top: calc(120px + env(safe-area-inset-top));
+            margin-top: 110px;
             margin-bottom: 0 !important;
             padding-bottom: 0 !important;
         }

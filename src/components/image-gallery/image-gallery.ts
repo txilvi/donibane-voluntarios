@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Imagen, eTipoImagen } from './image-gallery.model';
+import { BreakpointProvider } from '@shared/providers/breakpoint.provider';
+import { Subscription } from 'rxjs/Subscription';
 
 
 @Component({
@@ -9,15 +11,27 @@ import { Imagen, eTipoImagen } from './image-gallery.model';
 export class ImageGalleryComponent {
 
   @Input() images: Imagen[] = [];
-  @Input() slidesPerView: number = 3;
+  @Input() slidesPerView: number = 1;
+  @Input() direction: string = 'horizontal';
 
   imagesNormalizadas: Imagen[] = [];
+  isXS: boolean = false;
+
+  private subscriptions: Subscription = new Subscription();
 
   constructor(
+    private breakpointService: BreakpointProvider
   ) { }
 
   ngOnInit() {
     this.setImagenes();
+    this.subscriptions.add(
+      this.breakpointService.isXS$.subscribe((isXS: boolean) => {
+        this.isXS = isXS;
+        this.slidesPerView = 2;
+        this.direction = 'vertical';
+      })
+    );
   }
 
   ngOnChanges() {

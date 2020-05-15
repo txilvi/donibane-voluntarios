@@ -25992,13 +25992,11 @@ body {
 
 .content-md .scroll-content {
   margin-top: 130px;
-  margin-bottom: 65px !important;
-  padding-bottom: 65px !important;
 }
 
 @media (max-width: 700px) {
   .content-md .scroll-content {
-    margin-top: calc(120px + env(safe-area-inset-top));
+    margin-top: 110px;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
   }
@@ -26722,18 +26720,17 @@ custom-header .header-block .idioma span.lang-selected {
 }
 
 image-gallery .content-gallery {
-  height: 240px;
+  height: 600px;
 }
 
 image-gallery .content-gallery ion-slides .swiper-container {
-  height: 100%;
+  height: 700px;
 }
 
 image-gallery .content-gallery ion-slides .swiper-container ion-slide.swiper-slide {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  max-height: 90px;
 }
 
 image-gallery .content-gallery ion-slides .swiper-container ion-slide.swiper-slide img {
@@ -26758,6 +26755,14 @@ image-gallery .content-gallery--modal ion-slides .swiper-container ion-slide.swi
 
 image-gallery .content-gallery--modal ion-slides .swiper-container .swiper-pagination {
   bottom: 68px;
+}
+
+image-gallery .content-gallery .scroll-content {
+  margin-top: 0px;
+}
+
+image-gallery .content-gallery .swiper-pagination-bullet-active {
+  background: #065A38;
 }
 
 mapa .map {
@@ -26916,8 +26921,6 @@ ayuda-page .usuario .numero {
 }
 
 contacto-page .descripcion {
-  margin: 125px auto 0;
-  padding: 20px;
   text-align: justify;
   font-family: 'Montserrat';
   font-size: 18px;
