@@ -1,18 +1,18 @@
 <custom-header [title]="title"></custom-header>
 <ion-content>
-    <div class="custom-container descripcion">
-        <div class="lnk-wrapper">
-            <div class="titulo-haciendo">
-                <img *ngIf="esFormularioAyuda" alt="icono-ayuda" src="assets/imgs/usuarios/ayuda.png" />
-                <img *ngIf="!esFormularioAyuda" alt="icono-voluntario" src="assets/imgs/usuarios/voluntarios.png" />
-                <span translate>Contacta con nosotros</span>
-            </div>
+    <div class="lnk-wrapper">
+        <div class="titulo-haciendo">
+            <img *ngIf="esFormularioAyuda" alt="icono-ayuda" src="assets/imgs/usuarios/ayuda.png" />
+            <img *ngIf="!esFormularioAyuda" alt="icono-voluntario" src="assets/imgs/usuarios/voluntarios.png" />
+            <span translate>Contacta con nosotros</span>
         </div>
+    </div>
+    <div *ngIf="!sent" class="custom-container descripcion">
 
         <form class="ca__formulario" [formGroup]="formContacto" novalidate>
             <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
                 <ion-label stacked translate>Tu nombre *</ion-label>
-                <ion-input type="text" autofocus="autofocus" formControlName="nombre" value="" required>
+                <ion-input type="text" autofocus="autofocus" formControlName="nombre" value="" name="nombre" autocomplete="name" required>
                 </ion-input>
             </ion-item>
             <div *ngIf="(formContacto.get('nombre').dirty || formContacto.get('nombre').dirty)">
@@ -22,15 +22,12 @@
             </div>
             <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
                 <ion-label stacked translate>Tu teléfono *</ion-label>
-                <ion-input class="telefono" #telefonoInput
-                    type="text" formControlName="telefono"
-                    onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="9" value=""
-                    required></ion-input>
+                <ion-input class="telefono" #telefonoInput type="text" formControlName="telefono" autocomplete="tel" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="9" value="" required></ion-input>
             </ion-item>
 
             <ion-item>
                 <ion-label stacked translate>Tu e-mail (opcional)</ion-label>
-                <ion-input type="email" formControlName="email"></ion-input>
+                <ion-input type="email" formControlName="email" autocomplete="email"></ion-input>
             </ion-item>
             <div *ngIf="(formContacto.get('email').dirty || formContacto.get('email').dirty)">
                 <div class="error" *ngIf="formContacto.controls['email'].hasError('emailCustom')" translate>
@@ -43,15 +40,30 @@
                 <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" value="">
                 </ion-input>
             </ion-item>
-            <p class="ca__leyenda">
+            <p class="leyenda">
                 <em translate>* Campos obligatorios</em>
             </p>
 
-            <button type="button" ion-button class="ca__btn-enviar c-btn"
-                (click)="enviar()" [disabled]="!formContacto.valid">
-                <span translate>Enviar</span>
-            </button>
+            <div class="btn-wrapper">
+                <button type="button" ion-button class="c-btn btn-enviar" (click)="enviar()" [disabled]="!formContacto.valid">
+                    <span translate>Enviar</span>
+                </button>
+            </div>
+
+            <div class="btn-secondary-wrapper" translate>
+                <div translate>O si lo prefieres...</div>
+                <button type="button" ion-button class="c-btn" (click)="llamar()">
+                    <ion-icon name="call"></ion-icon>
+                    <span translate>Llámanos</span>
+                </button>
+                <button type="button" ion-button class="c-btn" (click)="escribir()">
+                    <ion-icon name="mail"></ion-icon>
+                    <span translate>Escríbenos</span>
+                </button>
+            </div>
         </form>
     </div>
-    <footer></footer>
+    <div translate *ngIf="sent">
+        Solicitud correctamente envíada. En breve nos pondremos en contacto contigo.
+    </div>
 </ion-content>

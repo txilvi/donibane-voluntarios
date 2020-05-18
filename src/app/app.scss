@@ -46,6 +46,15 @@ ion-title {
     }
 }
 
+.rrss {
+  text-align:center;
+  color: $c-verde-oscuro;
+  ion-icon {
+    font-size: 23px;
+    padding: 10px;
+  }
+}
+
 ion-label {
   img {
     width: 30px;

@@ -9,6 +9,10 @@ ion-input {
     }
 
     .button-md:hover:not(.disable-hover) {
-        background-color:$c-gris;
+        background-color: $c-gris;
     }
+}
+
+ion-label {
+    font-size: 14px !important;
 }

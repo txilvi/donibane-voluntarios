@@ -17,6 +17,7 @@ export class ContactoPage {
 
   formContacto: FormGroup;
   errorMessage: string;
+  sent: boolean;
  
   private subscriptions: Subscription = new Subscription();
   private loader: Loading = null;
@@ -51,8 +52,17 @@ export class ContactoPage {
     .subscribe((res: boolean) => {
       if (res == true) {
         console.log('Ok');
+        this.sent = true;
       }
     });
+  }
+
+  llamar() {
+    window.location.href = 'tel:+34607343254';
+  }
+
+  escribir() {
+    window.location.href = 'mailto:donibane.voluntarios.sanjuan@gmail.com';
   }
 
   ngOnDestroy() {

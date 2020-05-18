@@ -3,6 +3,11 @@ var gulp = require('gulp');
 var replace = require('gulp-replace');
 var runSequence = require('run-sequence');
 
+gulp.task('remove-script-ionic', function() {
+    return gulp.src(config.revisioning.replace)
+    .pipe(replace(new RegExp('<script data-ionic[\\s\\S]*?>[\\s\\S]*?<\\/script>', 'g'), ''))
+    .pipe(gulp.dest(config.revisioning.dest));
+});
 
 gulp.task('revisioning-hash', function() {
   let timeStamp = new Date().getTime();
@@ -36,5 +41,5 @@ gulp.task('revisioning-js-sw', function() {
 
 gulp.task('revisioning', function(cb) {
   cb = cb || function() {};
-  runSequence('revisioning-hash', 'revisioning-sw', 'revisioning-index-sw', 'revisioning-js-sw', cb);
+  runSequence('revisioning-hash', 'revisioning-sw', 'revisioning-index-sw', 'revisioning-js-sw', 'remove-script-ionic', cb);
 });

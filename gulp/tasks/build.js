@@ -9,5 +9,5 @@ gulp.task('build:after', function(cb) {
 
 gulp.task('prod', function(cb) {
   cb = cb || function() {};
-  runSequence('copyBundles', 'revisioning', 'watch', cb);
+  runSequence('copyBundles', 'adaptIndex', 'revisioning', 'watch', cb);
 });

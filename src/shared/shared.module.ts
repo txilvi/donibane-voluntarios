@@ -29,10 +29,8 @@ import { HighlightPipe } from './pipes/highlight.pipe';
 import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 import { BreakpointProvider } from './providers/breakpoint.provider';
-import { PrintProvider } from './providers/print.provider';
 import { SocialProvider } from './providers/social.provider';
 import { CacheProvider } from './providers/cache.provider';
-import { KeyboardProvider } from './providers/keyboard.provider';
 
 
 @NgModule({
@@ -108,10 +106,8 @@ export class SharedModule {
         HighlightPipe,
         CustomDatePipe,
         BreakpointProvider,
-        PrintProvider,
         SocialProvider,
-        CacheProvider,
-        KeyboardProvider
+        CacheProvider
       ]
     };
   }

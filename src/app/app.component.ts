@@ -5,12 +5,12 @@ import { CacheService } from 'ionic-cache';
 import { AppSettings } from '@app/app.constants';
 import { EnvProvider } from '@env/env.provider';
 import { CordovaProvider } from '@providers/cordova/cordova.provider';
-import { HockeyApp } from 'ionic-hockeyapp';
 import { I18nService } from '@core/i18n/i18n.service';
 import { QueHacemosPage } from '@pages/que-hacemos/que-hacemos';
 import { HomePage } from '@pages/home/home';
 import { AyudaPage } from '@pages/ayuda/ayuda';
 import { VoluntariosPage } from '@pages/voluntarios/voluntarios';
+import { GaleriaPage } from '@pages/galeria/galeria';
 
 
 @Component({
@@ -24,6 +24,7 @@ export class SanJuanXarApp {
   srcLogo: string;
   pages: any[] = [
     { component: QueHacemosPage , title: '¿Qué estamos haciendo?', icon: 'assets/imgs/icons/ayuda.png' },
+    { component: GaleriaPage , title: 'Galería de fotos', icon: 'assets/imgs/icons/galeria.png' },
     { component: AyudaPage , title: 'Necesito ayuda', icon: 'assets/imgs/usuarios/ayuda.png' },
     { component: VoluntariosPage , title: 'Quiero ser voluntari@', icon: 'assets/imgs/usuarios/voluntarios.png' }
   ];
@@ -34,21 +35,9 @@ export class SanJuanXarApp {
     private cordovaProvider: CordovaProvider,
     private cacheStorage: CacheService,
     private app: App,
-    private platform: Platform,
-    private hockeyapp: HockeyApp
+    private platform: Platform
   ) {
     this.platform.ready().then(() => {
-      // The Android ID of the app as provided by the HockeyApp portal. Can be null if for iOS only.
-      let androidAppId = 'c90b91a744e54266af0a7c54d41735a7';
-      // The iOS ID of the app as provided by the HockeyApp portal. Can be null if for android only.
-      let iosAppId = null;
-      // Specifies whether you would like crash reports to be automatically sent to the HockeyApp server when the end user restarts the app.
-      let autoSendCrashReports = false;
-      // Specifies whether you would like to display the standard dialog when the app is about to crash. This parameter is only relevant on Android.
-      let ignoreCrashDialog = true;
-   
-      this.hockeyapp.start(androidAppId, iosAppId, autoSendCrashReports, ignoreCrashDialog);
-   
       //So app doesn't close when hockey app activities close
       //This also has a side effect of unable to close the app when on the rootPage and using the back button.
       //Back button will perform as normal on other pages and pop to the previous page.
@@ -70,6 +59,17 @@ export class SanJuanXarApp {
     this.initCordova();
   }
 
+  goTwitter() {
+    window.open('https://twitter.com/SAN_JUAN_XAR', '_blank');
+  }
+
+  goFacebook() {
+    window.open('https://www.facebook.com/sanjuan.xar', '_blank');
+  }
+
+  goYoutube() {
+    window.open('https://www.youtube.com/channel/UCB1RCMLqPBkKPH-N-e1AkPg', '_blank');
+  }  
   exitApp(){
     this.platform.exitApp();
   }

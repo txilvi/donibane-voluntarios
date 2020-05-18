@@ -1,27 +1,10 @@
 contacto-page {
-    .descripcion {
-        text-align: justify;
-        font-family: 'Montserrat';
-        font-size: 18px;
-        @include respond-to("mobile") {
-            margin-top: 105px;
-            width: 100%;
-            font-size: 16px;
-            padding: 15px;
-        }
-    }
-    .destacado {
-        color: $c-verde-oscuro;
-        font-weight: 600;
-    }
     .lnk-wrapper {
         text-align: center;
-        margin-top: 15px;
         margin-bottom: 15px;
         .titulo-haciendo {
             font-size: 24px;
             font-weight: 600;
-            padding: 10px;
             width: 90%;
             color: $c-verde-oscuro;
             @include respond-to("mobile-mini") {
@@ -37,21 +20,32 @@ contacto-page {
             }
         }
     }
-    .cuenta-usuarios {
-        display: flex;
-        justify-content: center;
+
+    .leyenda {
+        float: right;
     }
-    .usuario {
+    .btn-wrapper {
+        margin-top:50px;
         text-align: center;
-        width: 50%;
-        @include respond-to("mobile") {
-            padding: 0 10px;
+        .btn-enviar {
+            width: 200px;
+            text-align: center;
+            background: $c-verde-oscuro;
+            color: $c-blanco;
         }
-        img {
-            width:120px;
+    }
+
+    .btn-secondary-wrapper {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 16px;
+        button {
+            margin-top:10px;
+            height: 30px;
+            font-size: 16px;
         }
-       .numero {
-           margin-top: -20px;
-       }
+        ion-icon {
+            margin-right: 10px;
+        }
     }
 }
