@@ -5,7 +5,7 @@
       <ion-title>
         <img src="assets/imgs/logos/sanjuanxar.png" click="openPage('HomePage')" />
         <div class="menu-title" click="openPage('HomePage')">
-          <div translate class="title">Cuida a tus vecinos</div>
+          <div translate class="title">Cuida a tus vecin@s</div>
           <div translate class="subtitle">Haz barrio</div>
         </div>
       </ion-title>
@@ -17,19 +17,13 @@
       <ion-item menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         <div>
           <img src="{{ p.icon }}" />
-          {{p.title}}
+          <span translate>{{ p.title }}</span>
         </div>
       </ion-item>
       <ion-item class="rrss">
           <ion-icon name="logo-facebook" (click)="goFacebook()"></ion-icon>
           <ion-icon name="logo-twitter" (click)="goTwitter()"></ion-icon>
           <ion-icon name="logo-youtube" (click)="goYoutube()"></ion-icon>
-      </ion-item>
-      <ion-item menuClose ion-item  (click)="exitApp()">
-        <div>
-          <img src="assets/imgs/icons/exit.png" />
-          Salir
-        </div>
       </ion-item>
     </ion-list>
     

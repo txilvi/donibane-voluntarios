@@ -17,11 +17,11 @@ export class CorreosProviderFake extends ICorreosProvider {
   }
 
 
-  mandarCorreo(_correo: Correo): Observable<boolean> {
+  mandarCorreo(correo: Correo): Observable<boolean> {
     const url = 'https://772bxqhxu9.execute-api.eu-west-2.amazonaws.com/prod/email';
     return this.http
       .config()
-      .get<boolean>(url);
+      .post<boolean>(url, JSON.stringify(correo));
   }
   
 }

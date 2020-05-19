@@ -7,12 +7,12 @@ ion-input {
         padding: 14px 12px;
         min-width: 230px;
     }
-
-    .button-md:hover:not(.disable-hover) {
-        background-color: $c-gris;
-    }
 }
 
+.button-md:hover:not(.disable-hover) { 
+    background-color: $c-verde-oscuro;
+    color: $c-blanco;
+}
 ion-label {
     font-size: 14px !important;
 }

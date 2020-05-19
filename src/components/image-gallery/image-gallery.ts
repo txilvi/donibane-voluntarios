@@ -12,7 +12,6 @@ export class ImageGalleryComponent {
 
   @Input() images: Imagen[] = [];
   @Input() slidesPerView: number = 1;
-  @Input() direction: string = 'horizontal';
 
   imagesNormalizadas: Imagen[] = [];
   isXS: boolean = false;
@@ -29,7 +28,6 @@ export class ImageGalleryComponent {
       this.breakpointService.isXS$.subscribe((isXS: boolean) => {
         this.isXS = isXS;
         this.slidesPerView = 2;
-        this.direction = 'vertical';
       })
     );
   }

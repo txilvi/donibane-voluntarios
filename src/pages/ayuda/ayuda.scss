@@ -18,6 +18,9 @@ ayuda-page {
             padding: 10px;
             width: 90%;
             color: $c-verde-oscuro;
+            @include respond-to("mobile") {
+                font-size: 19px;
+            }
             @include respond-to("mobile-mini") {
                 font-size: 17px;
             }
@@ -29,6 +32,19 @@ ayuda-page {
                     margin-right: 10px;
                 }
             }
+        }
+    }
+
+    .necesidades-list {
+        img {
+            width: 32px;
+            vertical-align: middle;
+        }
+        li {
+            list-style: none;
+        }
+        .icono-grande {
+            width: 50px;
         }
     }
 

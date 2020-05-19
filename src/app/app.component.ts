@@ -5,7 +5,7 @@ import { CacheService } from 'ionic-cache';
 import { AppSettings } from '@app/app.constants';
 import { EnvProvider } from '@env/env.provider';
 import { CordovaProvider } from '@providers/cordova/cordova.provider';
-import { I18nService } from '@core/i18n/i18n.service';
+import { I18nService, extract } from '@core/i18n/i18n.service';
 import { QueHacemosPage } from '@pages/que-hacemos/que-hacemos';
 import { HomePage } from '@pages/home/home';
 import { AyudaPage } from '@pages/ayuda/ayuda';
@@ -23,10 +23,10 @@ export class SanJuanXarApp {
   rootPage: any = HomePage;
   srcLogo: string;
   pages: any[] = [
-    { component: QueHacemosPage , title: '¿Qué estamos haciendo?', icon: 'assets/imgs/icons/ayuda.png' },
-    { component: GaleriaPage , title: 'Galería de fotos', icon: 'assets/imgs/icons/galeria.png' },
-    { component: AyudaPage , title: 'Necesito ayuda', icon: 'assets/imgs/usuarios/ayuda.png' },
-    { component: VoluntariosPage , title: 'Quiero ser voluntari@', icon: 'assets/imgs/usuarios/voluntarios.png' }
+    { component: QueHacemosPage , title: this.i18nService.instant(extract('¿Qué estamos haciendo?')), icon: 'assets/imgs/icons/ayuda.png' },
+    { component: GaleriaPage , title: this.i18nService.instant(extract('Imágenes')), icon: 'assets/imgs/icons/galeria.png' },
+    { component: AyudaPage , title: this.i18nService.instant(extract('Necesito ayuda')), icon: 'assets/imgs/usuarios/ayuda.png' },
+    { component: VoluntariosPage , title: this.i18nService.instant(extract('Quiero ser voluntari@')), icon: 'assets/imgs/usuarios/voluntarios.png' }
   ];
 
   constructor(

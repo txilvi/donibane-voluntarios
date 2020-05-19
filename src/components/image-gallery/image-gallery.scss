@@ -14,27 +14,6 @@ image-gallery {
                 }
             }
         }
-
-        &--modal {
-            ion-slides .swiper-container {
-                background-color: $c-gris-suave;
-
-                ion-slide.swiper-slide {
-                    max-height: initial;
-
-                    img {
-                        border: none;
-                        padding: 100px 10px 170px 10px;
-                        height: 700px;
-                        width: auto;
-                    }
-                }
-
-                .swiper-pagination {
-                    bottom: 68px;
-                }
-            }
-        }
         .scroll-content {
             margin-top:0px;
         }

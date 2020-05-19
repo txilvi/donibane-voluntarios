@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, Loading, NavParams } from 'ionic-angular';
+import { IonicPage, Loading, NavParams, NavController, LoadingController } from 'ionic-angular';
 import { Subscription } from 'rxjs/Subscription';
 import { finalize } from 'rxjs/operators';
 
@@ -24,7 +24,9 @@ export class ContactoPage {
   private esFormularioAyuda: boolean;
 
   constructor( 
+    private loadingCtrl: LoadingController,
     private formBuilder: FormBuilder,
+    private navCtrl: NavController,
     private navParams: NavParams,
     private correosProvider: ICorreosProvider
   ) {}
@@ -42,15 +44,21 @@ export class ContactoPage {
   }
 
   enviar() {
+    this.showLoading();
     let correo = new Correo(this.formContacto.value.nombre, this.formContacto.value.telefono, this.formContacto.value.email);
-    if (this.esFormularioAyuda) 
-     correo.quenecesitas = this.formContacto.value.quenecesitas;
+    if (this.esFormularioAyuda) {
+      correo.tipoSolicitud = 'Solicitud de ayuda';
+      correo.quenecesitas = this.formContacto.value.quenecesitas;
+    }
+    else {
+      correo.tipoSolicitud = 'Solicitud de nuevo voluntario';
+    }
     this.correosProvider.mandarCorreo(correo)
     .pipe(finalize(() => {
       if (this.loader) this.loader.dismiss();
     }))
-    .subscribe((res: boolean) => {
-      if (res == true) {
+    .subscribe((res: any) => {
+      if (res.err == null) {
         console.log('Ok');
         this.sent = true;
       }
@@ -65,8 +73,17 @@ export class ContactoPage {
     window.location.href = 'mailto:donibane.voluntarios.sanjuan@gmail.com';
   }
 
+  salir() {
+    this.navCtrl.goToRoot({});
+  }
+
   ngOnDestroy() {
     this.subscriptions.unsubscribe();
+  }
+
+  private showLoading(tiempo: number = null) {
+    this.loader = this.loadingCtrl.create({ duration: tiempo });
+    this.loader.present();
   }
 }
 

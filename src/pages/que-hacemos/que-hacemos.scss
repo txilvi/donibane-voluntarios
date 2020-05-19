@@ -20,7 +20,7 @@ que-hacemos-page {
         text-align: center;
         margin-bottom: 15px;
         .titulo-haciendo {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 600;
             width: 90%;
             color: $c-verde-oscuro;
@@ -59,7 +59,9 @@ que-hacemos-page {
     }
     .lnk-gallery {
         margin-top:20px;
+        margin-bottom: 20px;
         text-align: center;
+        cursor: pointer;
         span {
             margin-left:10px;
             color: $c-verde-oscuro;
@@ -69,6 +71,12 @@ que-hacemos-page {
         img {
             width:50px;
             vertical-align: middle;
+        }
+    }
+    .video-wrapper {
+        text-align: center;
+        video {
+            width: 100%;
         }
     }
 }

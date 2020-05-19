@@ -1,9 +1,13 @@
-<div class="content-gallery" [ngClass]="{'content-gallery--modal': (slidesPerView == 1)}">
+<div *ngIf="isXS" class="content-gallery" [ngClass]="{'content-gallery--modal': (slidesPerView == 1)}">
     <ion-content>
-        <ion-slides class="image-slider" loop="false" slidesPerView="{{slidesPerView}}" direction="{{direction}}" spaceBetween="50" pager="true" zoom="true">
+        <ion-slides class="image-slider" loop="false" slidesPerView="{{slidesPerView}}" direction="vertical" pager="true" zoom="true">
             <ion-slide *ngFor="let img of imagesNormalizadas">
-                <img [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.ruta" />
+                <img  [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.ruta" />
             </ion-slide>
         </ion-slides>
     </ion-content>
+</div>
+
+<div *ngIf="!isXS">
+    <img *ngFor="let img of imagesNormalizadas" [src]="img.thumbnail" class="thumb-img" [imageViewer]="img.ruta" />
 </div>
