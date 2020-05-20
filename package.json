@@ -82,7 +82,7 @@
     "cordova-plugin-globalization": "^1.11.0",
     "cordova-plugin-ignore-lint-translation": "0.0.1",
     "cordova-plugin-inappbrowser": "^1.6.1",
-    "cordova-plugin-ionic-webview": "^1.2.1",
+    "cordova-plugin-ionic-webview": "^2.2.0",
     "cordova-plugin-network-information": "^2.0.1",
     "cordova-plugin-screen-orientation": "^3.0.2",
     "cordova-plugin-splashscreen": "^5.0.2",
