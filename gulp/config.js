@@ -1,4 +1,4 @@
-global.buildDir = '../GN.Sanidad.CoronaTest.WebUI';
+global.buildDir = '';
 
 module.exports = {
   jsonServer: {

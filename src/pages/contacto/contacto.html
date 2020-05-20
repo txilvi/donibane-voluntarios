@@ -36,7 +36,7 @@
             </div>
 
             <ion-item *ngIf="esFormularioAyuda" [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
-                <ion-label stacked translate>Cuéntanos que necesitas</ion-label>
+                <ion-label stacked translate>Cuéntanos qué necesitas</ion-label>
                 <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" value="">
                 </ion-input>
             </ion-item>
@@ -52,10 +52,6 @@
 
             <div class="btn-secondary-wrapper" translate>
                 <div translate>O si lo prefieres...</div>
-                <button type="button" ion-button class="c-btn" (click)="llamar()">
-                    <ion-icon name="call"></ion-icon>
-                    <span translate>Llámanos</span>
-                </button>
                 <button type="button" ion-button class="c-btn" (click)="escribir()">
                     <ion-icon name="mail"></ion-icon>
                     <span translate>Escríbenos</span>

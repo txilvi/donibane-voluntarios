@@ -48,13 +48,13 @@ custom-header {
                 font-family: 'BrainFlowerEuro';
 
                 @include respond-to("mobile") {
-                    font-size: 38px;
+                    font-size: 28px;
                 }
                 @include respond-to("mobile-mini3") {
-                    font-size: 34px;
+                    font-size: 28px;
                 }
                 @include respond-to("mobile-mini2") {
-                    font-size: 32px;
+                    font-size: 27px;
                 }
                 @include respond-to("mobile-mini") {
                     margin-bottom: 0px;
@@ -81,11 +81,11 @@ custom-header {
             bottom: 5px;
             right: 0px;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 16px;
             float: right;
 
             @include respond-to("mobile") {
-                font-size: 16px;
+                font-size: 12px;
             }
             @include respond-to("mobile-mini") {
                 bottom: 0px;

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="4" id="es.donibane.voluntarios" ios-CFBundleVersion="4" version="2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Donibane Te Ayuda</name>
-    <description>Donibane Te Ayuda</description>
+<widget android-versionCode="4" id="es.donibane.voluntarios" ios-CFBundleVersion="4" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cuida Donibane</name>
+    <description>Cuida Donibane</description>
     <author email="donibanevoluntariosapp@gmail.com" href="">Silvia Ayerra Eusa</author>
     <content src="index.html" />
     <access origin="*" />
@@ -9,6 +9,7 @@
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="maps:*" />
+    <allow-intent href="mailto:*" />
     <preference name="loadUrlTimeoutValue" value="86400000" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="28" />
@@ -104,6 +105,7 @@
         <splash height="828" src="resources/ios/splash/Default-Landscape-1792h~iphone.png" width="1792" />
         <splash height="2436" src="resources/ios/splash/Default-2436h.png" width="1125" />
         <splash height="1125" src="resources/ios/splash/Default-Landscape-2436h.png" width="2436" />
+        <allow-navigation href="https://www.youtube.com/embed/7OuQLfdZMVQ" />
     </platform>
     <plugin name="cordova-plugin-x-socialsharing" spec="5.4.1" />
     <plugin name="cordova-plugin-ignore-lint-translation" spec="0.0.1" />
@@ -117,6 +119,6 @@
     <plugin name="cordova-plugin-inappbrowser" spec="1.6.1" />
     <plugin name="cordova-plugin-network-information" spec="2.0.1" />
     <plugin name="cordova-plugin-globalization" spec="1.11.0" />
-    <engine name="android" spec="7.1.4" />
+    <engine name="android" spec="^7.1.4" />
     <engine name="ios" spec="4.5.5" />
 </widget>

@@ -7,13 +7,6 @@ export interface Environment {
   logLevel: number;
   version: string;
   cordova: CordovaEnvSettings;
-  firebaseConfig: {
-    apiKey: string;
-    authDomain: string;
-    databaseURL: string;
-    projectId: string;
-    storageBucket: string;
-  };
 }
 
 export interface CordovaEnvSettings {
