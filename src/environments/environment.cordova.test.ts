@@ -11,5 +11,6 @@ export const EnvSettings: Environment = {
   version: '(cordova-test)',
   cordova: {
     finalBuild: false
-  }
+  },
+  captcha: '6LecWPsUAAAAAGTCY9QLAPn2f7rpxDPxvCPALT5g'
 };

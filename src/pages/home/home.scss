@@ -42,13 +42,12 @@ home-page {
     .usuario {
         padding: 0 20px;
         text-align: center;
-        margin-bottom: 20px;
         @include respond-to("mobile") {
             padding: 0 10px;
         }
         .img-usuario-wrapper {
             display: inline-block;
-            width: 150px;
+            width: 120px;
             vertical-align: middle;
             @include respond-to("mobile") {
                 width: 30%;

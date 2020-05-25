@@ -7,6 +7,7 @@ export interface Environment {
   logLevel: number;
   version: string;
   cordova: CordovaEnvSettings;
+  captcha: string;
 }
 
 export interface CordovaEnvSettings {

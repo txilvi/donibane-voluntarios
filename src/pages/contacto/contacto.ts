@@ -16,8 +16,9 @@ import { Correo } from '@providers/correos/correos.model';
 export class ContactoPage {
 
   formContacto: FormGroup;
-  errorMessage: string;
+  errorMessage: boolean;
   sent: boolean;
+  tokenCaptcha: string = '';
  
   private subscriptions: Subscription = new Subscription();
   private loader: Loading = null;
@@ -39,28 +40,35 @@ export class ContactoPage {
       nombre: [null, Validators.compose([Validators.required])],
       telefono: [null, Validators.compose([Validators.maxLength(9), Validators.required])],
       email: [null, Validators.compose([])],
-      quenecesitas: [null, Validators.compose([])]
+      direccion: [null, Validators.compose([Validators.required])],
+      quenecesitas: [null, Validators.compose([])],
+      recaptchaReactive: [null, Validators.compose([Validators.required])]
     });
   }
 
   enviar() {
     this.showLoading();
-    let correo = new Correo(this.formContacto.value.nombre, this.formContacto.value.telefono, this.formContacto.value.email);
+    let correo = new Correo(this.formContacto.value.nombre, this.formContacto.value.telefono, this.formContacto.value.email, this.formContacto.value.direccion, this.formContacto.value.recaptchaReactive);
     if (this.esFormularioAyuda) {
-      correo.tipoSolicitud = 'Solicitud de ayuda';
+      correo.tipoSolicitud = 'SOLICITUD DE AYUDA';
       correo.quenecesitas = this.formContacto.value.quenecesitas;
     }
     else {
-      correo.tipoSolicitud = 'Solicitud de nuevo voluntario';
+      correo.tipoSolicitud = 'SOLICITUD DE NUEVO VOLUNTARIO';
     }
     this.correosProvider.mandarCorreo(correo)
     .pipe(finalize(() => {
       if (this.loader) this.loader.dismiss();
     }))
     .subscribe((res: any) => {
-      if (res.err == null) {
+      if (res.success == true) {
         console.log('Ok');
         this.sent = true;
+        this.errorMessage = false;
+      }
+      else {
+        this.errorMessage = true;
+        this.sent = false;
       }
     });
   }
@@ -79,6 +87,10 @@ export class ContactoPage {
 
   ngOnDestroy() {
     this.subscriptions.unsubscribe();
+  }
+
+  onCaptchaSubmit(captchaResponse: string) {
+    this.tokenCaptcha = captchaResponse;
   }
 
   private showLoading(tiempo: number = null) {

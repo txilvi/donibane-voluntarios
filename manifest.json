@@ -1,13 +1,20 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Cuida Donibane",
+  "short_name": "Cuida Donibane",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logos/sanjuanxar.png",
+    "src": "assets/imgs/logos/logo.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
   "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "theme_color": "#4e8ef7",
+  "prefer_related_applications": true,
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=es.donibane.voluntarios",
+    "id": "es.donibane.voluntarios"
+  }
+  ]
 }

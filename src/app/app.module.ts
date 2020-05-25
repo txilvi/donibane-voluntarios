@@ -4,8 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { IonicStorageModule } from '@ionic/storage';
 import { TranslateModule, MissingTranslationHandler } from '@ngx-translate/core';
+import { RecaptchaModule, RECAPTCHA_SETTINGS, RecaptchaSettings, RecaptchaFormsModule } from 'ng-recaptcha';
 import { CacheModule } from 'ionic-cache';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EnvSettings } from '@environment';
 
 import localeEs from '@angular/common/locales/es';
 import localeEu from '@angular/common/locales/eu';
@@ -39,6 +41,8 @@ registerLocaleData(localeEu);
     SanJuanXarApp
   ],
   imports: [
+    RecaptchaModule,
+    RecaptchaFormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
@@ -65,6 +69,14 @@ registerLocaleData(localeEu);
   bootstrap: [IonicApp],
   entryComponents: [
     SanJuanXarApp
+  ],
+  providers: [
+    {
+      provide: RECAPTCHA_SETTINGS,
+      useValue: {
+        siteKey: EnvSettings.captcha,
+      } as RecaptchaSettings
+    }
   ]
 })
 export class AppModule { }

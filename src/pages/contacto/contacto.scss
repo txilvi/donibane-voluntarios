@@ -20,7 +20,9 @@ contacto-page {
             }
         }
     }
-
+    .captcha {
+        margin: 20px;
+    }
     .leyenda {
         float: right;
     }
@@ -50,6 +52,12 @@ contacto-page {
     }
 
     .success-wrapper {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .error-wrapper {
+        color: $c-rojo;
         text-align: center;
         font-size: 18px;
     }

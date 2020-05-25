@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 
+import { RecaptchaModule, RecaptchaFormsModule } from 'ng-recaptcha';
 import { SharedModule } from '@shared/shared.module';
 import { CustomHeaderModule } from '@components/custom-header/custom-header.module';
 import { ImageGalleryComponentModule } from '@components/image-gallery/image-gallery.module';
@@ -14,6 +15,8 @@ import { ContactoPage } from './contacto';
   ],
   imports: [
     IonicPageModule.forChild(ContactoPage),
+    RecaptchaModule,
+    RecaptchaFormsModule,
     CustomHeaderModule,
     ImageGalleryComponentModule,
     FooterModule,

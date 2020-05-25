@@ -7,12 +7,12 @@
             <span translate>Contacta con nosotr@s</span>
         </div>
     </div>
-    <div *ngIf="!sent" class="custom-container descripcion">
+    <div *ngIf="!sent && !errorMessage" class="custom-container descripcion">
 
         <form class="ca__formulario" [formGroup]="formContacto" novalidate>
             <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
                 <ion-label stacked translate>Tu nombre y apellidos *</ion-label>
-                <ion-input type="text" autofocus="autofocus" formControlName="nombre" value="" name="nombre" autocomplete="name" required>
+                <ion-input type="text" autofocus="autofocus" formControlName="nombre" value="" name="nombre" autocomplete="name" maxlength="50" required>
                 </ion-input>
             </ion-item>
             <div *ngIf="(formContacto.get('nombre').dirty || formContacto.get('nombre').dirty)">
@@ -27,7 +27,7 @@
 
             <ion-item>
                 <ion-label stacked translate>Tu e-mail (opcional)</ion-label>
-                <ion-input type="email" formControlName="email" autocomplete="email"></ion-input>
+                <ion-input type="email" formControlName="email" autocomplete="email" maxlength="50"></ion-input>
             </ion-item>
             <div *ngIf="(formContacto.get('email').dirty || formContacto.get('email').dirty)">
                 <div class="error" *ngIf="formContacto.controls['email'].hasError('emailCustom')" translate>
@@ -35,11 +35,30 @@
                 </div>
             </div>
 
-            <ion-item *ngIf="esFormularioAyuda" [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
-                <ion-label stacked translate>Cuéntanos qué necesitas</ion-label>
-                <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" value="">
+            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['direccion'].hasError('required')}">
+                <ion-label stacked translate>Dirección donde vives (sólo calle y portal) *</ion-label>
+                <ion-input type="text" autofocus="autofocus" formControlName="direccion" value="" name="direccion" autocomplete="address" maxlength="100" required>
                 </ion-input>
             </ion-item>
+            <div *ngIf="(formContacto.get('direccion').dirty || formContacto.get('direccion').dirty)">
+                <div class="error" *ngIf="formContacto.controls['direccion'].hasError('required')" translate>
+                    Por favor, introduce la dirección donde vives
+                </div>
+            </div>
+
+            <ion-item *ngIf="esFormularioAyuda" [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
+                <ion-label stacked translate>Cuéntanos qué necesitas</ion-label>
+                <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" maxlength="100" value="">
+                </ion-input>
+            </ion-item>
+
+            <div class="captcha">
+                <re-captcha 
+                    formControlName="recaptchaReactive"
+                    (resolved)="$event && onCaptchaSubmit($event)">
+                </re-captcha>
+            </div>
+
             <p class="leyenda">
                 <em translate>* Campos obligatorios</em>
             </p>
@@ -60,7 +79,15 @@
         </form>
     </div>
     <div class="success-wrapper" translate *ngIf="sent">
-        Solicitud correctamente envíada. En breve nos pondremos en contacto contigo.
+        <span translate>Solicitud correctamente enviada. En breve nos pondremos en contacto contigo.</span>
+        <div class="btn-wrapper">
+            <button type="button" ion-button class="c-btn btn-enviar" (click)="salir()">
+                <span translate>Salir</span>
+            </button>
+        </div>
+    </div>
+    <div class="error-wrapper" translate *ngIf="errorMessage">
+        <span translate>Se ha producido un error. Inténtalo de nuevo más tarde.</span>
         <div class="btn-wrapper">
             <button type="button" ion-button class="c-btn btn-enviar" (click)="salir()">
                 <span translate>Salir</span>
