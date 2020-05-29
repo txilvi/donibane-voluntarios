@@ -29,7 +29,6 @@ import { HighlightPipe } from './pipes/highlight.pipe';
 import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 import { BreakpointProvider } from './providers/breakpoint.provider';
-import { SocialProvider } from './providers/social.provider';
 import { CacheProvider } from './providers/cache.provider';
 
 
@@ -106,7 +105,6 @@ export class SharedModule {
         HighlightPipe,
         CustomDatePipe,
         BreakpointProvider,
-        SocialProvider,
         CacheProvider
       ]
     };

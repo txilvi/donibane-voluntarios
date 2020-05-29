@@ -19,7 +19,6 @@ import { SharedModule } from '@shared/shared.module';
 
 //Providers
 import { registerLocaleData } from '@angular/common';
-import { GeoLocalizacionProviderModule } from '@providers/geolocalizacion/geolocalizacion.provider.module';
 import { CordovaProviderModule } from '@providers/cordova/cordova.provider.module';
 import { ErroresProviderModule } from '@providers/errores/errores.provider.module';
 import { CorreosProviderModule } from '@providers/correos/correos.provider.module';
@@ -62,7 +61,6 @@ registerLocaleData(localeEu);
     ContactoModule,
     GaleriaModule,
     CorreosProviderModule,
-    GeoLocalizacionProviderModule,
     ErroresProviderModule,
     CordovaProviderModule
   ],

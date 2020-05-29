@@ -42,7 +42,8 @@ contacto-page {
         margin-left: 20px;
         font-size: 16px;
         button {
-            margin-top:10px;
+            margin:10px 0px;
+            padding-bottom: 20px;
             height: 30px;
             font-size: 16px;
         }
@@ -54,6 +55,7 @@ contacto-page {
     .success-wrapper {
         text-align: center;
         font-size: 18px;
+        padding: 0 20px;
     }
 
     .error-wrapper {

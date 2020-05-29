@@ -1,7 +1,0 @@
-<ion-searchbar #search [(ngModel)]="filtroBusqueda" (ionInput)="autocompleteAddress()" placeholder="Introduce un lugar..."></ion-searchbar>
-<ion-list *ngIf="mostrarSugerencias" class="search-sugerencias">
-    <ion-item class="sugerencia" *ngFor="let item of autocompleteBusqueda" (tap)="searchDeaOnAddressClick(item)">
-        <ion-icon class="icono" name="ios-pin"></ion-icon>
-        <span [innerHTML]="item.nombreCompleto | highlight:filtroBusqueda"></span>
-    </ion-item>
-</ion-list>

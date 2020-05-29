@@ -48,10 +48,9 @@ export class ContactoPage {
 
   enviar() {
     this.showLoading();
-    let correo = new Correo(this.formContacto.value.nombre, this.formContacto.value.telefono, this.formContacto.value.email, this.formContacto.value.direccion, this.formContacto.value.recaptchaReactive);
+    let correo = new Correo(this.formContacto.value.nombre, this.formContacto.value.telefono, this.formContacto.value.email, this.formContacto.value.direccion, this.formContacto.value.recaptchaReactive, this.formContacto.value.quenecesitas);
     if (this.esFormularioAyuda) {
       correo.tipoSolicitud = 'SOLICITUD DE AYUDA';
-      correo.quenecesitas = this.formContacto.value.quenecesitas;
     }
     else {
       correo.tipoSolicitud = 'SOLICITUD DE NUEVO VOLUNTARIO';

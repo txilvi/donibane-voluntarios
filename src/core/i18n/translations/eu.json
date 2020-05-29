@@ -16,7 +16,7 @@
   "Otras necesidades...": "Beste beharretan...",
   "Contacta con nosotr@s": "Gurekin harremanetan jarri",
   "Tu nombre y apellidos *": "Zure izen-abizenak *",
-  "Por favor, introduce tu nombre": "Mesedez, zure izena ezarri ezazu",
+  "Por favor, introduce tu nombre y apellidos": "Mesedez, zure izen-abizenak ezarri ezazu",
   "Tu teléfono *": "Zure telefonoa *",
   "Tu e-mail (opcional)": "Zure e-mail-a (aukerakoa)",
   "Introduce un email correcto": "E-mail zuzen bat ezarri ezazu",
@@ -27,6 +27,8 @@
   "Enviar": "Bidali",
   "O si lo prefieres...": "Nahiago baduzu...",
   "Escríbenos": "Idatzi diezaiguzu",
+  "Solicitud correctamente enviada. En breve nos pondremos en contacto contigo.": "Eskaera behar bezala bidali da. Laister zurekin harremanetan jarriko gara.",
+  "Se ha producido un error. Inténtalo de nuevo más tarde.": "Arazo bat gertatu da. Saiatu berriro geroago.",
   "Desde el": " ",
   "Pacto por la Persona Mayor": "Adineko Pertsonaren Aldeko Itunetik",
   "y": "eta",
@@ -47,6 +49,5 @@
   "No tienes síntomas de COVID-19.": "COVID-19-aren sintomarik ez duzu.",
   "En los últimos días no has estado en espacios de riesgo.": "Azken egunetan gune arriskugarrietan ez zara egon.",
   "{{ p.title }}": "",
-  "Solicitud correctamente enviada. En breve nos pondremos en contacto contigo.": "Eskaera behar bezala bidali da. Laister zurekin harremanetan jarriko gara.",
-  "Se ha producido un error. Inténtalo de nuevo más tarde.": "Arazo bat gertatu da. Saiatu berriro geroago."
+  "Cuéntanos cómo quieres colaborar": "Nola lagundu nahi duzu?"
 }

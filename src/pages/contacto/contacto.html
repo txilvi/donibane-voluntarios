@@ -17,7 +17,7 @@
             </ion-item>
             <div *ngIf="(formContacto.get('nombre').dirty || formContacto.get('nombre').dirty)">
                 <div class="error" *ngIf="formContacto.controls['nombre'].hasError('required')" translate>
-                    Por favor, introduce tu nombre
+                    Por favor, introduce tu nombre y apellidos
                 </div>
             </div>
             <ion-item [ngClass]="{ 'error-item' : formContacto.controls['nombre'].hasError('required')}">
@@ -46,8 +46,9 @@
                 </div>
             </div>
 
-            <ion-item *ngIf="esFormularioAyuda" [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
-                <ion-label stacked translate>Cuéntanos qué necesitas</ion-label>
+            <ion-item [ngClass]="{ 'error-item' : formContacto.controls['quenecesitas'].hasError('required')}">
+                <ion-label *ngIf="esFormularioAyuda" stacked translate>Cuéntanos qué necesitas</ion-label>
+                <ion-label *ngIf="!esFormularioAyuda" stacked translate>Cuéntanos cómo quieres colaborar</ion-label>
                 <ion-input type="text" autofocus="autofocus" formControlName="quenecesitas" maxlength="100" value="">
                 </ion-input>
             </ion-item>
